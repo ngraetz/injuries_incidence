@@ -1,0 +1,1229 @@
+source,target,value
+"Animal contact","Fracture of skull",18249.55
+"Animal contact","Environmental factors (e.g. temperature, pressure, electricity)",2722.711
+"Animal contact","Asphyxiation",22.88159
+"Animal contact","Non-fatal submersion",77.50489
+"Animal contact","Amputation of thumb",1319.875
+"Animal contact","Dislocation of shoulder",640.7817
+"Animal contact","Complications of medical treatment",12989.2
+"Animal contact","Lower airway burns",91.14085
+"Animal contact","Minor traumatic brain injury",15312.48
+"Animal contact","Contusion",15634.96
+"Animal contact","Crush injury",3789.876
+"Animal contact","Internal hemorrhage in abdomen or pelvis",80631.3
+"Animal contact","Moderate to severe traumatic brain injury",69443.14
+"Animal contact","Injured nerves",8270.012
+"Animal contact","Injury to eyes (including foreign body eye)",7124.64
+"Animal contact","Fracture of patella, tibia, fibula, or ankle",80185.92
+"Animal contact","Fracture of hand bone",19029.59
+"Animal contact","Open wound",445990.3
+"Animal contact","Fracture of sternum or rib(s)",11788.13
+"Animal contact","Fracture of foot bone",5203.34
+"Animal contact","Dislocation of knee",2634.577
+"Animal contact","Fracture of pelvis",9376.324
+"Animal contact","Dislocation of hip",510.9135
+"Animal contact","Amputation of both lower limbs",43.52363
+"Animal contact","Fracture of vertebral column",14654.61
+"Animal contact","Amputation of one lower limb",6015.952
+"Animal contact","Fracture of radius or ulna",21984.38
+"Animal contact","Amputation of one upper limb",728.2715
+"Animal contact","Spinal cord lesion at neck level",1389.168
+"Animal contact","Burns with >=20% total burned surface area or >=10% if burns include face and/or hands",4414.297
+"Animal contact","Amputation of finger (excluding thumb)",1615.398
+"Animal contact","Burns with <20% total burned surface area",1727.684
+"Animal contact","Severe chest Injury",7500.344
+"Animal contact","Amputation of toe",283.6369
+"Animal contact","Fracture of clavicle, scapula, or humerus",6770.163
+"Animal contact","Amputation of both upper limbs",2361.167
+"Animal contact","Fracture of face bone",6548.212
+"Animal contact","Other injuries of muscle & tendon and other dislocations",5659.746
+"Animal contact","Multiple significant injuries",746269.2
+"Animal contact","Poisoning",936217.4
+"Animal contact","Fracture of femur, other than femoral neck",17542.75
+"Animal contact","Fracture of neck of femur",13690.25
+"Animal contact","Spinal cord lesion below neck level",117796
+"Non-venomous animal contact","Spinal cord lesion below neck level",116763.2
+"Non-venomous animal contact","Dislocation of hip",327.4416
+"Non-venomous animal contact","Injured nerves",6495.578
+"Non-venomous animal contact","Moderate to severe traumatic brain injury",55318.87
+"Non-venomous animal contact","Contusion",13992.91
+"Non-venomous animal contact","Fracture of femur, other than femoral neck",13418.96
+"Non-venomous animal contact","Fracture of skull",15599.68
+"Non-venomous animal contact","Amputation of both lower limbs",39.76548
+"Non-venomous animal contact","Burns with <20% total burned surface area",645.1384
+"Non-venomous animal contact","Dislocation of shoulder",491.6209
+"Non-venomous animal contact","Lower airway burns",29.07925
+"Non-venomous animal contact","Fracture of neck of femur",7122.244
+"Non-venomous animal contact","Fracture of vertebral column",13237.26
+"Non-venomous animal contact","Poisoning",45400.38
+"Non-venomous animal contact","Fracture of patella, tibia, fibula, or ankle",66500.4
+"Non-venomous animal contact","Amputation of thumb",1195.259
+"Non-venomous animal contact","Open wound",428449.2
+"Non-venomous animal contact","Severe chest Injury",5494.82
+"Non-venomous animal contact","Minor traumatic brain injury",11122.92
+"Non-venomous animal contact","Fracture of radius or ulna",12430.65
+"Non-venomous animal contact","Internal hemorrhage in abdomen or pelvis",47376.38
+"Non-venomous animal contact","Amputation of toe",224.1937
+"Non-venomous animal contact","Amputation of finger (excluding thumb)",1127.872
+"Non-venomous animal contact","Burns with >=20% total burned surface area or >=10% if burns include face and/or hands",1195.605
+"Non-venomous animal contact","Fracture of clavicle, scapula, or humerus",4337.715
+"Non-venomous animal contact","Fracture of sternum or rib(s)",11690.64
+"Non-venomous animal contact","Other injuries of muscle & tendon and other dislocations",3764.926
+"Non-venomous animal contact","Amputation of both upper limbs",1679.157
+"Non-venomous animal contact","Dislocation of knee",2191.287
+"Non-venomous animal contact","Asphyxiation",4.837514
+"Non-venomous animal contact","Fracture of foot bone",3483.823
+"Non-venomous animal contact","Amputation of one upper limb",650.2125
+"Non-venomous animal contact","Environmental factors (e.g. temperature, pressure, electricity)",889.181
+"Non-venomous animal contact","Non-fatal submersion",37.26643
+"Non-venomous animal contact","Fracture of pelvis",6538.401
+"Non-venomous animal contact","Fracture of face bone",5303.834
+"Non-venomous animal contact","Fracture of hand bone",15932.39
+"Non-venomous animal contact","Spinal cord lesion at neck level",1157.96
+"Non-venomous animal contact","Injury to eyes (including foreign body eye)",6784.528
+"Non-venomous animal contact","Multiple significant injuries",199588.3
+"Non-venomous animal contact","Amputation of one lower limb",3020.533
+"Non-venomous animal contact","Crush injury",2710.139
+"Non-venomous animal contact","Complications of medical treatment",3894.67
+"Venomous animal contact","Burns with <20% total burned surface area",1082.545
+"Venomous animal contact","Open wound",17541.17
+"Venomous animal contact","Fracture of neck of femur",6568.004
+"Venomous animal contact","Complications of medical treatment",9094.527
+"Venomous animal contact","Injury to eyes (including foreign body eye)",340.1115
+"Venomous animal contact","Internal hemorrhage in abdomen or pelvis",33254.92
+"Venomous animal contact","Fracture of face bone",1244.378
+"Venomous animal contact","Fracture of foot bone",1719.516
+"Venomous animal contact","Amputation of toe",59.44324
+"Venomous animal contact","Amputation of both upper limbs",682.0099
+"Venomous animal contact","Poisoning",890816.9
+"Venomous animal contact","Dislocation of hip",183.4719
+"Venomous animal contact","Spinal cord lesion at neck level",231.2076
+"Venomous animal contact","Severe chest Injury",2005.524
+"Venomous animal contact","Environmental factors (e.g. temperature, pressure, electricity)",1833.53
+"Venomous animal contact","Amputation of one lower limb",2995.418
+"Venomous animal contact","Asphyxiation",18.04408
+"Venomous animal contact","Fracture of sternum or rib(s)",97.48254
+"Venomous animal contact","Fracture of skull",2649.872
+"Venomous animal contact","Crush injury",1079.737
+"Venomous animal contact","Multiple significant injuries",546680.9
+"Venomous animal contact","Fracture of vertebral column",1417.349
+"Venomous animal contact","Amputation of one upper limb",78.05899
+"Venomous animal contact","Fracture of hand bone",3097.198
+"Venomous animal contact","Moderate to severe traumatic brain injury",14124.27
+"Venomous animal contact","Amputation of both lower limbs",3.758146
+"Venomous animal contact","Burns with >=20% total burned surface area or >=10% if burns include face and/or hands",3218.691
+"Venomous animal contact","Non-fatal submersion",40.23846
+"Venomous animal contact","Amputation of finger (excluding thumb)",487.5261
+"Venomous animal contact","Fracture of radius or ulna",9553.73
+"Venomous animal contact","Dislocation of knee",443.2893
+"Venomous animal contact","Fracture of femur, other than femoral neck",4123.789
+"Venomous animal contact","Minor traumatic brain injury",4189.559
+"Venomous animal contact","Fracture of patella, tibia, fibula, or ankle",13685.52
+"Venomous animal contact","Injured nerves",1774.434
+"Venomous animal contact","Amputation of thumb",124.6163
+"Venomous animal contact","Contusion",1642.049
+"Venomous animal contact","Spinal cord lesion below neck level",1032.821
+"Venomous animal contact","Fracture of pelvis",2837.923
+"Venomous animal contact","Fracture of clavicle, scapula, or humerus",2432.447
+"Venomous animal contact","Dislocation of shoulder",149.1608
+"Venomous animal contact","Lower airway burns",62.06159
+"Venomous animal contact","Other injuries of muscle & tendon and other dislocations",1894.819
+"Exposure to forces of nature","Fracture of clavicle, scapula, or humerus",6101.392
+"Exposure to forces of nature","Fracture of sternum or rib(s)",87.86073
+"Exposure to forces of nature","Dislocation of knee",545.6624
+"Exposure to forces of nature","Amputation of finger (excluding thumb)",956.0391
+"Exposure to forces of nature","Burns with <20% total burned surface area",68019.73
+"Exposure to forces of nature","Amputation of one lower limb",3889.595
+"Exposure to forces of nature","Fracture of hand bone",4882.399
+"Exposure to forces of nature","Internal hemorrhage in abdomen or pelvis",26790.85
+"Exposure to forces of nature","Amputation of one upper limb",185.2507
+"Exposure to forces of nature","Fracture of neck of femur",39745.42
+"Exposure to forces of nature","Severe chest Injury",6137.12
+"Exposure to forces of nature","Fracture of radius or ulna",17778.22
+"Exposure to forces of nature","Dislocation of shoulder",1031.604
+"Exposure to forces of nature","Amputation of thumb",3866.503
+"Exposure to forces of nature","Burns with >=20% total burned surface area or >=10% if burns include face and/or hands",46501.75
+"Exposure to forces of nature","Spinal cord lesion below neck level",7379.324
+"Exposure to forces of nature","Lower airway burns",2128.121
+"Exposure to forces of nature","Minor traumatic brain injury",14025.64
+"Exposure to forces of nature","Fracture of patella, tibia, fibula, or ankle",39953.27
+"Exposure to forces of nature","Fracture of skull",3416.407
+"Exposure to forces of nature","Asphyxiation",30.71926
+"Exposure to forces of nature","Contusion",109.4724
+"Exposure to forces of nature","Moderate to severe traumatic brain injury",58634.11
+"Exposure to forces of nature","Non-fatal submersion",194.2339
+"Exposure to forces of nature","Open wound",9186.592
+"Exposure to forces of nature","Fracture of pelvis",13131.34
+"Exposure to forces of nature","Dislocation of hip",895.7672
+"Exposure to forces of nature","Amputation of both upper limbs",2542.028
+"Exposure to forces of nature","Poisoning",22491.95
+"Exposure to forces of nature","Complications of medical treatment",36236.17
+"Exposure to forces of nature","Injury to eyes (including foreign body eye)",2624.987
+"Exposure to forces of nature","Amputation of toe",65.90517
+"Exposure to forces of nature","Spinal cord lesion at neck level",2334.823
+"Exposure to forces of nature","Fracture of vertebral column",30202.47
+"Exposure to forces of nature","Environmental factors (e.g. temperature, pressure, electricity)",125649.3
+"Exposure to forces of nature","Fracture of face bone",3559.976
+"Exposure to forces of nature","Other injuries of muscle & tendon and other dislocations",5174.317
+"Exposure to forces of nature","Injured nerves",7516.611
+"Exposure to forces of nature","Fracture of foot bone",3577.635
+"Exposure to forces of nature","Multiple significant injuries",35913.25
+"Exposure to forces of nature","Fracture of femur, other than femoral neck",13961.74
+"Exposure to forces of nature","Crush injury",6789.027
+"Drowning","Lower airway burns",126.0354
+"Drowning","Crush injury",1524.239
+"Drowning","Fracture of pelvis",7838.977
+"Drowning","Fracture of skull",1040.016
+"Drowning","Injured nerves",8354.337
+"Drowning","Amputation of thumb",24.77513
+"Drowning","Asphyxiation",441.617
+"Drowning","Fracture of face bone",3116.415
+"Drowning","Dislocation of shoulder",935.0795
+"Drowning","Burns with >=20% total burned surface area or >=10% if burns include face and/or hands",1816.124
+"Drowning","Moderate to severe traumatic brain injury",33376.65
+"Drowning","Minor traumatic brain injury",5886.735
+"Drowning","Spinal cord lesion at neck level",5514.894
+"Drowning","Environmental factors (e.g. temperature, pressure, electricity)",14460.41
+"Drowning","Amputation of both upper limbs",178.0064
+"Drowning","Amputation of both lower limbs",176.3534
+"Drowning","Severe chest Injury",1778.494
+"Drowning","Dislocation of knee",1575.94
+"Drowning","Fracture of radius or ulna",12165.56
+"Drowning","Amputation of one lower limb",7058.706
+"Drowning","Fracture of vertebral column",9877.95
+"Drowning","Other injuries of muscle & tendon and other dislocations",2352.462
+"Drowning","Injury to eyes (including foreign body eye)",293.0296
+"Drowning","Internal hemorrhage in abdomen or pelvis",7080.541
+"Drowning","Burns with <20% total burned surface area",727.4618
+"Drowning","Fracture of femur, other than femoral neck",13172.31
+"Drowning","Fracture of hand bone",3116.342
+"Drowning","Fracture of clavicle, scapula, or humerus",10077.12
+"Drowning","Spinal cord lesion below neck level",7858.38
+"Drowning","Fracture of neck of femur",97138.47
+"Drowning","Non-fatal submersion",32510.06
+"Drowning","Complications of medical treatment",10611.48
+"Drowning","Poisoning",8699.232
+"Drowning","Dislocation of hip",288.8294
+"Drowning","Multiple significant injuries",62699.18
+"Drowning","Open wound",3651.836
+"Drowning","Amputation of finger (excluding thumb)",633.3295
+"Drowning","Contusion",480.5056
+"Drowning","Fracture of patella, tibia, fibula, or ankle",36928.93
+"Drowning","Fracture of sternum or rib(s)",663.4694
+"Drowning","Amputation of one upper limb",176.0403
+"Drowning","Fracture of foot bone",9106.197
+"Drowning","Amputation of toe",9.919554
+"Falls","Fracture of hand bone",303409.4
+"Falls","Burns with <20% total burned surface area",14737.02
+"Falls","Other injuries of muscle & tendon and other dislocations",98877.98
+"Falls","Minor traumatic brain injury",466708.3
+"Falls","Amputation of one upper limb",5903.213
+"Falls","Burns with >=20% total burned surface area or >=10% if burns include face and/or hands",15630.15
+"Falls","Internal hemorrhage in abdomen or pelvis",494859.3
+"Falls","Lower airway burns",1698.505
+"Falls","Fracture of sternum or rib(s)",233071.3
+"Falls","Fracture of femur, other than femoral neck",558343.6
+"Falls","Fracture of foot bone",187443.5
+"Falls","Multiple significant injuries",4474864
+"Falls","Spinal cord lesion at neck level",84094.16
+"Falls","Fracture of patella, tibia, fibula, or ankle",3121829
+"Falls","Severe chest Injury",105429
+"Falls","Amputation of toe",882.364
+"Falls","Injured nerves",184255.5
+"Falls","Fracture of radius or ulna",991560.9
+"Falls","Amputation of both lower limbs",566.6636
+"Falls","Fracture of vertebral column",1389595
+"Falls","Fracture of pelvis",331875.1
+"Falls","Crush injury",116703.5
+"Falls","Amputation of thumb",2762.25
+"Falls","Injury to eyes (including foreign body eye)",16972.58
+"Falls","Amputation of both upper limbs",14979.2
+"Falls","Dislocation of knee",50825.98
+"Falls","Open wound",366949.4
+"Falls","Environmental factors (e.g. temperature, pressure, electricity)",15461.91
+"Falls","Fracture of clavicle, scapula, or humerus",422091.3
+"Falls","Fracture of face bone",84484.64
+"Falls","Amputation of finger (excluding thumb)",5310.392
+"Falls","Amputation of one lower limb",38921.92
+"Falls","Fracture of skull",1090276
+"Falls","Spinal cord lesion below neck level",1681721
+"Falls","Asphyxiation",104.4288
+"Falls","Dislocation of shoulder",18401.74
+"Falls","Fracture of neck of femur",895556.4
+"Falls","Dislocation of hip",20738.12
+"Falls","Contusion",156518.6
+"Falls","Non-fatal submersion",954.8564
+"Falls","Complications of medical treatment",204769.6
+"Falls","Moderate to severe traumatic brain injury",3080687
+"Falls","Poisoning",54570.03
+"Fire, heat, and hot substances","Fracture of patella, tibia, fibula, or ankle",40614.36
+"Fire, heat, and hot substances","Moderate to severe traumatic brain injury",46390.15
+"Fire, heat, and hot substances","Minor traumatic brain injury",12477.16
+"Fire, heat, and hot substances","Spinal cord lesion below neck level",295986.4
+"Fire, heat, and hot substances","Poisoning",143760.4
+"Fire, heat, and hot substances","Amputation of one upper limb",673.6925
+"Fire, heat, and hot substances","Open wound",21298.36
+"Fire, heat, and hot substances","Fracture of radius or ulna",12621.35
+"Fire, heat, and hot substances","Asphyxiation",19.70969
+"Fire, heat, and hot substances","Fracture of vertebral column",18679.28
+"Fire, heat, and hot substances","Spinal cord lesion at neck level",807.5339
+"Fire, heat, and hot substances","Injured nerves",7378.592
+"Fire, heat, and hot substances","Non-fatal submersion",82.86643
+"Fire, heat, and hot substances","Fracture of face bone",4148.113
+"Fire, heat, and hot substances","Fracture of clavicle, scapula, or humerus",5717.131
+"Fire, heat, and hot substances","Lower airway burns",29168.31
+"Fire, heat, and hot substances","Fracture of pelvis",6781.465
+"Fire, heat, and hot substances","Other injuries of muscle & tendon and other dislocations",5805.863
+"Fire, heat, and hot substances","Amputation of toe",169.3689
+"Fire, heat, and hot substances","Amputation of finger (excluding thumb)",1127.849
+"Fire, heat, and hot substances","Burns with <20% total burned surface area",354294.3
+"Fire, heat, and hot substances","Dislocation of knee",1470.965
+"Fire, heat, and hot substances","Amputation of both lower limbs",114.2719
+"Fire, heat, and hot substances","Fracture of neck of femur",12580.69
+"Fire, heat, and hot substances","Environmental factors (e.g. temperature, pressure, electricity)",221022.2
+"Fire, heat, and hot substances","Burns with >=20% total burned surface area or >=10% if burns include face and/or hands",473504.2
+"Fire, heat, and hot substances","Fracture of sternum or rib(s)",934.4647
+"Fire, heat, and hot substances","Fracture of hand bone",6738.244
+"Fire, heat, and hot substances","Amputation of both upper limbs",3263.759
+"Fire, heat, and hot substances","Dislocation of shoulder",441.0648
+"Fire, heat, and hot substances","Contusion",776.95
+"Fire, heat, and hot substances","Dislocation of hip",884.766
+"Fire, heat, and hot substances","Complications of medical treatment",27683.08
+"Fire, heat, and hot substances","Amputation of thumb",510.7618
+"Fire, heat, and hot substances","Crush injury",8165.027
+"Fire, heat, and hot substances","Fracture of skull",8860.573
+"Fire, heat, and hot substances","Fracture of foot bone",3754.349
+"Fire, heat, and hot substances","Fracture of femur, other than femoral neck",12475.81
+"Fire, heat, and hot substances","Amputation of one lower limb",10901.55
+"Fire, heat, and hot substances","Multiple significant injuries",4380082
+"Fire, heat, and hot substances","Injury to eyes (including foreign body eye)",11840.29
+"Fire, heat, and hot substances","Severe chest Injury",5023.12
+"Fire, heat, and hot substances","Internal hemorrhage in abdomen or pelvis",204557.5
+"Pulmonary aspiration and foreign body in airway","Open wound",1858.544
+"Pulmonary aspiration and foreign body in airway","Amputation of toe",16.42894
+"Pulmonary aspiration and foreign body in airway","Fracture of pelvis",4236.424
+"Pulmonary aspiration and foreign body in airway","Asphyxiation",712.7615
+"Pulmonary aspiration and foreign body in airway","Internal hemorrhage in abdomen or pelvis",8635.17
+"Pulmonary aspiration and foreign body in airway","Multiple significant injuries",12174.9
+"Pulmonary aspiration and foreign body in airway","Other injuries of muscle & tendon and other dislocations",4462.644
+"Pulmonary aspiration and foreign body in airway","Injured nerves",4172.523
+"Pulmonary aspiration and foreign body in airway","Fracture of skull",1370.933
+"Pulmonary aspiration and foreign body in airway","Severe chest Injury",2679.489
+"Pulmonary aspiration and foreign body in airway","Environmental factors (e.g. temperature, pressure, electricity)",1237.085
+"Pulmonary aspiration and foreign body in airway","Non-fatal submersion",869.7297
+"Pulmonary aspiration and foreign body in airway","Complications of medical treatment",11930.7
+"Pulmonary aspiration and foreign body in airway","Fracture of neck of femur",49928.77
+"Pulmonary aspiration and foreign body in airway","Amputation of finger (excluding thumb)",501.8276
+"Pulmonary aspiration and foreign body in airway","Fracture of sternum or rib(s)",662.4791
+"Pulmonary aspiration and foreign body in airway","Moderate to severe traumatic brain injury",8939.33
+"Pulmonary aspiration and foreign body in airway","Minor traumatic brain injury",3803.136
+"Pulmonary aspiration and foreign body in airway","Dislocation of hip",181.7938
+"Pulmonary aspiration and foreign body in airway","Dislocation of knee",2324.385
+"Pulmonary aspiration and foreign body in airway","Spinal cord lesion below neck level",2186.709
+"Pulmonary aspiration and foreign body in airway","Amputation of one upper limb",27.91753
+"Pulmonary aspiration and foreign body in airway","Spinal cord lesion at neck level",2243.26
+"Pulmonary aspiration and foreign body in airway","Poisoning",19769.46
+"Pulmonary aspiration and foreign body in airway","Fracture of face bone",3084.1
+"Pulmonary aspiration and foreign body in airway","Fracture of femur, other than femoral neck",3758.851
+"Pulmonary aspiration and foreign body in airway","Fracture of patella, tibia, fibula, or ankle",4854.55
+"Pulmonary aspiration and foreign body in airway","Lower airway burns",1456.386
+"Pulmonary aspiration and foreign body in airway","Contusion",361.7455
+"Pulmonary aspiration and foreign body in airway","Amputation of thumb",21.74754
+"Pulmonary aspiration and foreign body in airway","Burns with >=20% total burned surface area or >=10% if burns include face and/or hands",2313.833
+"Pulmonary aspiration and foreign body in airway","Crush injury",1645.017
+"Pulmonary aspiration and foreign body in airway","Injury to eyes (including foreign body eye)",335.5522
+"Pulmonary aspiration and foreign body in airway","Fracture of clavicle, scapula, or humerus",1825.9
+"Pulmonary aspiration and foreign body in airway","Amputation of one lower limb",1528.546
+"Pulmonary aspiration and foreign body in airway","Fracture of radius or ulna",4721.476
+"Pulmonary aspiration and foreign body in airway","Burns with <20% total burned surface area",710.032
+"Pulmonary aspiration and foreign body in airway","Fracture of vertebral column",6844.938
+"Pulmonary aspiration and foreign body in airway","Dislocation of shoulder",585.0732
+"Pulmonary aspiration and foreign body in airway","Fracture of foot bone",4050.749
+"Pulmonary aspiration and foreign body in airway","Fracture of hand bone",1056.934
+"Pulmonary aspiration and foreign body in airway","Amputation of both upper limbs",146.222
+"Foreign body in eyes","Fracture of clavicle, scapula, or humerus",90.21108
+"Foreign body in eyes","Dislocation of shoulder",1.908852
+"Foreign body in eyes","Amputation of finger (excluding thumb)",1.933318
+"Foreign body in eyes","Burns with >=20% total burned surface area or >=10% if burns include face and/or hands",287.8352
+"Foreign body in eyes","Dislocation of knee",117.0324
+"Foreign body in eyes","Open wound",1694.823
+"Foreign body in eyes","Spinal cord lesion below neck level",1034.786
+"Foreign body in eyes","Internal hemorrhage in abdomen or pelvis",20016.83
+"Foreign body in eyes","Injured nerves",8532.421
+"Foreign body in eyes","Fracture of femur, other than femoral neck",520.9767
+"Foreign body in eyes","Complications of medical treatment",16197.94
+"Foreign body in eyes","Fracture of vertebral column",570.929
+"Foreign body in eyes","Severe chest Injury",639.5961
+"Foreign body in eyes","Fracture of pelvis",319.4905
+"Foreign body in eyes","Burns with <20% total burned surface area",193.6521
+"Foreign body in eyes","Dislocation of hip",9.507872
+"Foreign body in eyes","Moderate to severe traumatic brain injury",8532.989
+"Foreign body in eyes","Spinal cord lesion at neck level",190.6226
+"Foreign body in eyes","Fracture of radius or ulna",338.6275
+"Foreign body in eyes","Fracture of sternum or rib(s)",19.79363
+"Foreign body in eyes","Injury to eyes (including foreign body eye)",22637.75
+"Foreign body in eyes","Lower airway burns",34.5649
+"Foreign body in eyes","Environmental factors (e.g. temperature, pressure, electricity)",587.4608
+"Foreign body in eyes","Fracture of skull",3301.456
+"Foreign body in eyes","Amputation of one lower limb",40.90813
+"Foreign body in eyes","Amputation of both upper limbs",34.27762
+"Foreign body in eyes","Multiple significant injuries",4045.303
+"Foreign body in eyes","Fracture of hand bone",208.1252
+"Foreign body in eyes","Fracture of patella, tibia, fibula, or ankle",1661.574
+"Foreign body in eyes","Poisoning",975.9607
+"Foreign body in eyes","Fracture of neck of femur",1211.089
+"Foreign body in eyes","Crush injury",4377.937
+"Foreign body in eyes","Fracture of face bone",188.8986
+"Foreign body in eyes","Contusion",140.6268
+"Foreign body in eyes","Minor traumatic brain injury",809.7487
+"Foreign body in eyes","Other injuries of muscle & tendon and other dislocations",123.0173
+"Foreign body in eyes","Fracture of foot bone",290.8981
+"Foreign body in other body part","Amputation of finger (excluding thumb)",1020.125
+"Foreign body in other body part","Amputation of thumb",1868.473
+"Foreign body in other body part","Complications of medical treatment",8774.346
+"Foreign body in other body part","Fracture of hand bone",6122.073
+"Foreign body in other body part","Injured nerves",8592.246
+"Foreign body in other body part","Contusion",5048.676
+"Foreign body in other body part","Crush injury",3311.76
+"Foreign body in other body part","Severe chest Injury",3434.838
+"Foreign body in other body part","Fracture of skull",9844.442
+"Foreign body in other body part","Spinal cord lesion below neck level",983.9665
+"Foreign body in other body part","Internal hemorrhage in abdomen or pelvis",111274.8
+"Foreign body in other body part","Lower airway burns",1182.946
+"Foreign body in other body part","Non-fatal submersion",19.78473
+"Foreign body in other body part","Fracture of patella, tibia, fibula, or ankle",8141.863
+"Foreign body in other body part","Dislocation of knee",27.67078
+"Foreign body in other body part","Fracture of sternum or rib(s)",36.51585
+"Foreign body in other body part","Amputation of one lower limb",195.0562
+"Foreign body in other body part","Poisoning",95137.68
+"Foreign body in other body part","Multiple significant injuries",93974.36
+"Foreign body in other body part","Amputation of one upper limb",318.0258
+"Foreign body in other body part","Burns with >=20% total burned surface area or >=10% if burns include face and/or hands",248.7842
+"Foreign body in other body part","Moderate to severe traumatic brain injury",5669.806
+"Foreign body in other body part","Fracture of vertebral column",2671.072
+"Foreign body in other body part","Fracture of foot bone",966.4431
+"Foreign body in other body part","Dislocation of hip",20.48352
+"Foreign body in other body part","Fracture of clavicle, scapula, or humerus",449.6861
+"Foreign body in other body part","Fracture of pelvis",587.8865
+"Foreign body in other body part","Injury to eyes (including foreign body eye)",31196.84
+"Foreign body in other body part","Spinal cord lesion at neck level",417.6383
+"Foreign body in other body part","Fracture of radius or ulna",1385.124
+"Foreign body in other body part","Open wound",120431.9
+"Foreign body in other body part","Amputation of toe",67.11292
+"Foreign body in other body part","Other injuries of muscle & tendon and other dislocations",1530.614
+"Foreign body in other body part","Environmental factors (e.g. temperature, pressure, electricity)",1839.071
+"Foreign body in other body part","Amputation of both upper limbs",7300.203
+"Foreign body in other body part","Asphyxiation",21.16555
+"Foreign body in other body part","Fracture of femur, other than femoral neck",5481.448
+"Foreign body in other body part","Fracture of neck of femur",34922.19
+"Foreign body in other body part","Fracture of face bone",949.28
+"Foreign body in other body part","Minor traumatic brain injury",886.8934
+"Foreign body in other body part","Dislocation of shoulder",4.719286
+"Foreign body in other body part","Burns with <20% total burned surface area",1538.421
+"Interpersonal violence","Non-fatal submersion",103.8112
+"Interpersonal violence","Dislocation of shoulder",1011.029
+"Interpersonal violence","Amputation of finger (excluding thumb)",2282.914
+"Interpersonal violence","Fracture of vertebral column",89019.33
+"Interpersonal violence","Minor traumatic brain injury",87087.77
+"Interpersonal violence","Environmental factors (e.g. temperature, pressure, electricity)",3196.71
+"Interpersonal violence","Injured nerves",44020.61
+"Interpersonal violence","Amputation of toe",226.2649
+"Interpersonal violence","Moderate to severe traumatic brain injury",374534.2
+"Interpersonal violence","Fracture of femur, other than femoral neck",122854.8
+"Interpersonal violence","Complications of medical treatment",19470.11
+"Interpersonal violence","Burns with >=20% total burned surface area or >=10% if burns include face and/or hands",9098.407
+"Interpersonal violence","Fracture of patella, tibia, fibula, or ankle",256029.7
+"Interpersonal violence","Other injuries of muscle & tendon and other dislocations",6134.655
+"Interpersonal violence","Severe chest Injury",54513.34
+"Interpersonal violence","Open wound",179211.5
+"Interpersonal violence","Lower airway burns",444.9294
+"Interpersonal violence","Crush injury",6779.483
+"Interpersonal violence","Fracture of pelvis",21516.46
+"Interpersonal violence","Fracture of radius or ulna",47111.83
+"Interpersonal violence","Internal hemorrhage in abdomen or pelvis",225429.8
+"Interpersonal violence","Amputation of one lower limb",10671.87
+"Interpersonal violence","Fracture of neck of femur",72361.69
+"Interpersonal violence","Fracture of hand bone",64526.33
+"Interpersonal violence","Burns with <20% total burned surface area",14769.03
+"Interpersonal violence","Contusion",36045.84
+"Interpersonal violence","Poisoning",82199.43
+"Interpersonal violence","Amputation of thumb",2610.302
+"Interpersonal violence","Fracture of face bone",31898.23
+"Interpersonal violence","Spinal cord lesion at neck level",7343.09
+"Interpersonal violence","Fracture of sternum or rib(s)",50541.25
+"Interpersonal violence","Dislocation of knee",844.7196
+"Interpersonal violence","Spinal cord lesion below neck level",309085.9
+"Interpersonal violence","Fracture of foot bone",7364.833
+"Interpersonal violence","Fracture of skull",339975.4
+"Interpersonal violence","Multiple significant injuries",3750498
+"Interpersonal violence","Amputation of both upper limbs",6557.212
+"Interpersonal violence","Asphyxiation",56.20395
+"Interpersonal violence","Fracture of clavicle, scapula, or humerus",33405.15
+"Interpersonal violence","Injury to eyes (including foreign body eye)",9620.656
+"Interpersonal violence","Amputation of one upper limb",2630.296
+"Interpersonal violence","Amputation of both lower limbs",15.86916
+"Interpersonal violence","Dislocation of hip",574.8658
+"Assault by firearm","Amputation of one upper limb",88.1419
+"Assault by firearm","Burns with >=20% total burned surface area or >=10% if burns include face and/or hands",396.0088
+"Assault by firearm","Fracture of pelvis",6570.841
+"Assault by firearm","Amputation of both upper limbs",243.4002
+"Assault by firearm","Open wound",25409.16
+"Assault by firearm","Environmental factors (e.g. temperature, pressure, electricity)",840.428
+"Assault by firearm","Fracture of foot bone",2573.552
+"Assault by firearm","Amputation of thumb",23.10641
+"Assault by firearm","Spinal cord lesion below neck level",11260.82
+"Assault by firearm","Moderate to severe traumatic brain injury",27350.75
+"Assault by firearm","Injury to eyes (including foreign body eye)",1427.908
+"Assault by firearm","Severe chest Injury",13175.43
+"Assault by firearm","Injured nerves",8516.066
+"Assault by firearm","Other injuries of muscle & tendon and other dislocations",660.7037
+"Assault by firearm","Crush injury",860.3692
+"Assault by firearm","Minor traumatic brain injury",7400.288
+"Assault by firearm","Fracture of femur, other than femoral neck",13716.25
+"Assault by firearm","Fracture of vertebral column",22496.88
+"Assault by firearm","Amputation of toe",14.48271
+"Assault by firearm","Internal hemorrhage in abdomen or pelvis",63128.21
+"Assault by firearm","Dislocation of hip",44.88042
+"Assault by firearm","Fracture of clavicle, scapula, or humerus",3930.869
+"Assault by firearm","Spinal cord lesion at neck level",2923.645
+"Assault by firearm","Non-fatal submersion",3.090129
+"Assault by firearm","Fracture of skull",32132.7
+"Assault by firearm","Contusion",590.2959
+"Assault by firearm","Complications of medical treatment",3505.012
+"Assault by firearm","Dislocation of shoulder",8.419794
+"Assault by firearm","Fracture of patella, tibia, fibula, or ankle",67463.67
+"Assault by firearm","Lower airway burns",48.734
+"Assault by firearm","Poisoning",14742.15
+"Assault by firearm","Amputation of one lower limb",896.6267
+"Assault by firearm","Fracture of face bone",2964.787
+"Assault by firearm","Fracture of radius or ulna",9842.732
+"Assault by firearm","Fracture of neck of femur",5249.268
+"Assault by firearm","Burns with <20% total burned surface area",385.4591
+"Assault by firearm","Fracture of hand bone",4986.066
+"Assault by firearm","Dislocation of knee",232.3285
+"Assault by firearm","Fracture of sternum or rib(s)",84.46456
+"Assault by firearm","Multiple significant injuries",604378.6
+"Assault by firearm","Amputation of finger (excluding thumb)",361.0259
+"Assault by sharp object","Fracture of clavicle, scapula, or humerus",7829.127
+"Assault by sharp object","Fracture of foot bone",1546.862
+"Assault by sharp object","Fracture of femur, other than femoral neck",11009.32
+"Assault by sharp object","Fracture of radius or ulna",7341.955
+"Assault by sharp object","Fracture of neck of femur",6457.028
+"Assault by sharp object","Injured nerves",20974.69
+"Assault by sharp object","Spinal cord lesion below neck level",60311.99
+"Assault by sharp object","Amputation of toe",118.3835
+"Assault by sharp object","Multiple significant injuries",1044724
+"Assault by sharp object","Dislocation of hip",171.4026
+"Assault by sharp object","Other injuries of muscle & tendon and other dislocations",3271.6
+"Assault by sharp object","Poisoning",4353.89
+"Assault by sharp object","Injury to eyes (including foreign body eye)",2239.072
+"Assault by sharp object","Environmental factors (e.g. temperature, pressure, electricity)",398.5385
+"Assault by sharp object","Complications of medical treatment",4679.84
+"Assault by sharp object","Amputation of one lower limb",3433.521
+"Assault by sharp object","Amputation of both upper limbs",5273.009
+"Assault by sharp object","Lower airway burns",61.11942
+"Assault by sharp object","Dislocation of shoulder",70.36912
+"Assault by sharp object","Spinal cord lesion at neck level",1219.295
+"Assault by sharp object","Asphyxiation",5.110147
+"Assault by sharp object","Amputation of one upper limb",2245.945
+"Assault by sharp object","Moderate to severe traumatic brain injury",42892.7
+"Assault by sharp object","Crush injury",2273.587
+"Assault by sharp object","Non-fatal submersion",15.93501
+"Assault by sharp object","Fracture of skull",40863.33
+"Assault by sharp object","Burns with >=20% total burned surface area or >=10% if burns include face and/or hands",493.4158
+"Assault by sharp object","Severe chest Injury",28867.58
+"Assault by sharp object","Amputation of finger (excluding thumb)",1372.021
+"Assault by sharp object","Amputation of both lower limbs",10.35585
+"Assault by sharp object","Fracture of face bone",1889.059
+"Assault by sharp object","Fracture of vertebral column",8422.7
+"Assault by sharp object","Contusion",2593.751
+"Assault by sharp object","Dislocation of knee",190.2993
+"Assault by sharp object","Minor traumatic brain injury",7522.17
+"Assault by sharp object","Fracture of pelvis",2516.13
+"Assault by sharp object","Amputation of thumb",2228.668
+"Assault by sharp object","Fracture of hand bone",8486.887
+"Assault by sharp object","Fracture of patella, tibia, fibula, or ankle",34035.1
+"Assault by sharp object","Burns with <20% total burned surface area",611.4267
+"Assault by sharp object","Fracture of sternum or rib(s)",2310.402
+"Assault by sharp object","Open wound",74781.36
+"Assault by sharp object","Internal hemorrhage in abdomen or pelvis",111013.5
+"Assault by other means","Fracture of face bone",27044.39
+"Assault by other means","Poisoning",63103.39
+"Assault by other means","Internal hemorrhage in abdomen or pelvis",51288.11
+"Assault by other means","Fracture of radius or ulna",29927.14
+"Assault by other means","Burns with <20% total burned surface area",13772.14
+"Assault by other means","Dislocation of shoulder",932.2396
+"Assault by other means","Fracture of skull",266979.4
+"Assault by other means","Complications of medical treatment",11285.26
+"Assault by other means","Amputation of finger (excluding thumb)",549.8672
+"Assault by other means","Multiple significant injuries",2101395
+"Assault by other means","Injured nerves",14529.85
+"Assault by other means","Injury to eyes (including foreign body eye)",5953.676
+"Assault by other means","Amputation of both lower limbs",5.513308
+"Assault by other means","Lower airway burns",335.0759
+"Assault by other means","Other injuries of muscle & tendon and other dislocations",2202.351
+"Assault by other means","Fracture of vertebral column",58099.75
+"Assault by other means","Dislocation of knee",422.0918
+"Assault by other means","Contusion",32861.79
+"Assault by other means","Spinal cord lesion below neck level",237513.1
+"Assault by other means","Amputation of one upper limb",296.2094
+"Assault by other means","Severe chest Injury",12470.33
+"Assault by other means","Burns with >=20% total burned surface area or >=10% if burns include face and/or hands",8208.983
+"Assault by other means","Environmental factors (e.g. temperature, pressure, electricity)",1957.744
+"Assault by other means","Fracture of pelvis",12429.49
+"Assault by other means","Amputation of thumb",358.5281
+"Assault by other means","Asphyxiation",51.0938
+"Assault by other means","Fracture of hand bone",51053.38
+"Assault by other means","Fracture of neck of femur",60655.39
+"Assault by other means","Amputation of toe",93.39864
+"Assault by other means","Fracture of sternum or rib(s)",48146.38
+"Assault by other means","Fracture of foot bone",3244.419
+"Assault by other means","Fracture of clavicle, scapula, or humerus",21645.15
+"Assault by other means","Open wound",79020.98
+"Assault by other means","Moderate to severe traumatic brain injury",304290.7
+"Assault by other means","Dislocation of hip",358.5828
+"Assault by other means","Fracture of femur, other than femoral neck",98129.23
+"Assault by other means","Non-fatal submersion",84.78611
+"Assault by other means","Minor traumatic brain injury",72165.31
+"Assault by other means","Amputation of both upper limbs",1040.803
+"Assault by other means","Amputation of one lower limb",6341.717
+"Assault by other means","Fracture of patella, tibia, fibula, or ankle",154530.9
+"Assault by other means","Spinal cord lesion at neck level",3200.149
+"Assault by other means","Crush injury",3645.526
+"Exposure to mechanical forces","Crush injury",791141.2
+"Exposure to mechanical forces","Minor traumatic brain injury",271076.8
+"Exposure to mechanical forces","Other injuries of muscle & tendon and other dislocations",98668.13
+"Exposure to mechanical forces","Amputation of both lower limbs",1349.617
+"Exposure to mechanical forces","Burns with <20% total burned surface area",61300.29
+"Exposure to mechanical forces","Fracture of clavicle, scapula, or humerus",306744.2
+"Exposure to mechanical forces","Spinal cord lesion below neck level",3138712
+"Exposure to mechanical forces","Injured nerves",381867.4
+"Exposure to mechanical forces","Environmental factors (e.g. temperature, pressure, electricity)",63342.57
+"Exposure to mechanical forces","Severe chest Injury",106101.5
+"Exposure to mechanical forces","Amputation of finger (excluding thumb)",175817.4
+"Exposure to mechanical forces","Injury to eyes (including foreign body eye)",137643.1
+"Exposure to mechanical forces","Fracture of skull",841460.9
+"Exposure to mechanical forces","Dislocation of knee",14539.46
+"Exposure to mechanical forces","Burns with >=20% total burned surface area or >=10% if burns include face and/or hands",31935.26
+"Exposure to mechanical forces","Non-fatal submersion",126.8047
+"Exposure to mechanical forces","Fracture of hand bone",1968250
+"Exposure to mechanical forces","Fracture of foot bone",202153.3
+"Exposure to mechanical forces","Fracture of radius or ulna",461172.2
+"Exposure to mechanical forces","Dislocation of shoulder",8969.509
+"Exposure to mechanical forces","Spinal cord lesion at neck level",36221.98
+"Exposure to mechanical forces","Lower airway burns",2231.548
+"Exposure to mechanical forces","Amputation of one upper limb",22544.24
+"Exposure to mechanical forces","Poisoning",53232.65
+"Exposure to mechanical forces","Contusion",665659.4
+"Exposure to mechanical forces","Multiple significant injuries",6029235
+"Exposure to mechanical forces","Fracture of pelvis",335646
+"Exposure to mechanical forces","Fracture of sternum or rib(s)",150643.2
+"Exposure to mechanical forces","Dislocation of hip",7266.763
+"Exposure to mechanical forces","Fracture of neck of femur",379756.3
+"Exposure to mechanical forces","Open wound",1537752
+"Exposure to mechanical forces","Fracture of patella, tibia, fibula, or ankle",2298844
+"Exposure to mechanical forces","Amputation of one lower limb",64457.48
+"Exposure to mechanical forces","Fracture of femur, other than femoral neck",613728.5
+"Exposure to mechanical forces","Fracture of face bone",65575.6
+"Exposure to mechanical forces","Amputation of both upper limbs",131983.4
+"Exposure to mechanical forces","Amputation of toe",13575.08
+"Exposure to mechanical forces","Fracture of vertebral column",1232432
+"Exposure to mechanical forces","Internal hemorrhage in abdomen or pelvis",1109840
+"Exposure to mechanical forces","Complications of medical treatment",57210.17
+"Exposure to mechanical forces","Moderate to severe traumatic brain injury",750012.6
+"Exposure to mechanical forces","Amputation of thumb",310829.6
+"Exposure to mechanical forces","Asphyxiation",1483.239
+"Unintentional firearm injuries","Fracture of patella, tibia, fibula, or ankle",88039.85
+"Unintentional firearm injuries","Severe chest Injury",18087.17
+"Unintentional firearm injuries","Amputation of both lower limbs",.5467356
+"Unintentional firearm injuries","Multiple significant injuries",381122
+"Unintentional firearm injuries","Fracture of femur, other than femoral neck",27229.01
+"Unintentional firearm injuries","Open wound",46440.38
+"Unintentional firearm injuries","Poisoning",8198.57
+"Unintentional firearm injuries","Amputation of toe",1567.317
+"Unintentional firearm injuries","Amputation of both upper limbs",997.3234
+"Unintentional firearm injuries","Fracture of sternum or rib(s)",4498.481
+"Unintentional firearm injuries","Spinal cord lesion at neck level",5005.377
+"Unintentional firearm injuries","Dislocation of shoulder",159.5375
+"Unintentional firearm injuries","Injury to eyes (including foreign body eye)",6371.235
+"Unintentional firearm injuries","Non-fatal submersion",2.516249
+"Unintentional firearm injuries","Amputation of finger (excluding thumb)",1524.576
+"Unintentional firearm injuries","Environmental factors (e.g. temperature, pressure, electricity)",48486.41
+"Unintentional firearm injuries","Spinal cord lesion below neck level",12387.16
+"Unintentional firearm injuries","Minor traumatic brain injury",4457.438
+"Unintentional firearm injuries","Fracture of radius or ulna",15282.76
+"Unintentional firearm injuries","Other injuries of muscle & tendon and other dislocations",1892.705
+"Unintentional firearm injuries","Fracture of skull",23232.89
+"Unintentional firearm injuries","Fracture of foot bone",6004.938
+"Unintentional firearm injuries","Fracture of neck of femur",28442.98
+"Unintentional firearm injuries","Fracture of clavicle, scapula, or humerus",6994.104
+"Unintentional firearm injuries","Fracture of face bone",2252.212
+"Unintentional firearm injuries","Asphyxiation",.7172055
+"Unintentional firearm injuries","Amputation of one upper limb",234.5101
+"Unintentional firearm injuries","Burns with <20% total burned surface area",1346.334
+"Unintentional firearm injuries","Internal hemorrhage in abdomen or pelvis",90268.23
+"Unintentional firearm injuries","Dislocation of hip",92.77697
+"Unintentional firearm injuries","Complications of medical treatment",5939.74
+"Unintentional firearm injuries","Fracture of hand bone",20632.71
+"Unintentional firearm injuries","Crush injury",2330.88
+"Unintentional firearm injuries","Injured nerves",21131.09
+"Unintentional firearm injuries","Amputation of one lower limb",825.1313
+"Unintentional firearm injuries","Contusion",1462.284
+"Unintentional firearm injuries","Dislocation of knee",312.2992
+"Unintentional firearm injuries","Moderate to severe traumatic brain injury",29674.02
+"Unintentional firearm injuries","Fracture of vertebral column",66256.27
+"Unintentional firearm injuries","Lower airway burns",175.14
+"Unintentional firearm injuries","Amputation of thumb",4359.749
+"Unintentional firearm injuries","Burns with >=20% total burned surface area or >=10% if burns include face and/or hands",1055.848
+"Unintentional firearm injuries","Fracture of pelvis",17388.47
+"Other exposure to mechanical forces","Amputation of one lower limb",62816.52
+"Other exposure to mechanical forces","Spinal cord lesion at neck level",26208.22
+"Other exposure to mechanical forces","Dislocation of hip",5824.504
+"Other exposure to mechanical forces","Minor traumatic brain injury",261779
+"Other exposure to mechanical forces","Multiple significant injuries",5380310
+"Other exposure to mechanical forces","Fracture of foot bone",193939.1
+"Other exposure to mechanical forces","Fracture of radius or ulna",426824.6
+"Other exposure to mechanical forces","Fracture of neck of femur",283532.5
+"Other exposure to mechanical forces","Fracture of sternum or rib(s)",143100.9
+"Other exposure to mechanical forces","Amputation of both upper limbs",130985.7
+"Other exposure to mechanical forces","Amputation of toe",12007.77
+"Other exposure to mechanical forces","Open wound",1467603
+"Other exposure to mechanical forces","Other injuries of muscle & tendon and other dislocations",95833.64
+"Other exposure to mechanical forces","Burns with >=20% total burned surface area or >=10% if burns include face and/or hands",30879.42
+"Other exposure to mechanical forces","Non-fatal submersion",19.35199
+"Other exposure to mechanical forces","Amputation of thumb",301176.3
+"Other exposure to mechanical forces","Fracture of vertebral column",1096476
+"Other exposure to mechanical forces","Dislocation of shoulder",8177.89
+"Other exposure to mechanical forces","Burns with <20% total burned surface area",59772.8
+"Other exposure to mechanical forces","Fracture of clavicle, scapula, or humerus",291890.3
+"Other exposure to mechanical forces","Crush injury",781225.8
+"Other exposure to mechanical forces","Amputation of both lower limbs",1348.536
+"Other exposure to mechanical forces","Poisoning",29220.74
+"Other exposure to mechanical forces","Amputation of finger (excluding thumb)",172943.5
+"Other exposure to mechanical forces","Internal hemorrhage in abdomen or pelvis",982478.3
+"Other exposure to mechanical forces","Fracture of skull",767751.1
+"Other exposure to mechanical forces","Complications of medical treatment",50276.69
+"Other exposure to mechanical forces","Fracture of patella, tibia, fibula, or ankle",2093910
+"Other exposure to mechanical forces","Environmental factors (e.g. temperature, pressure, electricity)",10488.2
+"Other exposure to mechanical forces","Fracture of femur, other than femoral neck",568881.6
+"Other exposure to mechanical forces","Fracture of face bone",62872.39
+"Other exposure to mechanical forces","Fracture of pelvis",311061.9
+"Other exposure to mechanical forces","Dislocation of knee",14226.29
+"Other exposure to mechanical forces","Injury to eyes (including foreign body eye)",130561.4
+"Other exposure to mechanical forces","Spinal cord lesion below neck level",3113508
+"Other exposure to mechanical forces","Amputation of one upper limb",22309.73
+"Other exposure to mechanical forces","Fracture of hand bone",1928322
+"Other exposure to mechanical forces","Injured nerves",359168.4
+"Other exposure to mechanical forces","Severe chest Injury",85126.26
+"Other exposure to mechanical forces","Lower airway burns",2056.408
+"Other exposure to mechanical forces","Moderate to severe traumatic brain injury",664531.5
+"Other exposure to mechanical forces","Asphyxiation",7.587522
+"Other exposure to mechanical forces","Contusion",658008.9
+"Unintentional suffocation","Amputation of both lower limbs",.5340335
+"Unintentional suffocation","Poisoning",15813.34
+"Unintentional suffocation","Injured nerves",1567.914
+"Unintentional suffocation","Fracture of patella, tibia, fibula, or ankle",116893.7
+"Unintentional suffocation","Other injuries of muscle & tendon and other dislocations",941.7795
+"Unintentional suffocation","Internal hemorrhage in abdomen or pelvis",37093.71
+"Unintentional suffocation","Complications of medical treatment",993.735
+"Unintentional suffocation","Open wound",23708.91
+"Unintentional suffocation","Injury to eyes (including foreign body eye)",710.452
+"Unintentional suffocation","Fracture of neck of femur",67780.86
+"Unintentional suffocation","Dislocation of hip",1349.481
+"Unintentional suffocation","Fracture of face bone",450.998
+"Unintentional suffocation","Asphyxiation",1474.934
+"Unintentional suffocation","Fracture of hand bone",19294.54
+"Unintentional suffocation","Dislocation of knee",.8730285
+"Unintentional suffocation","Contusion",6188.15
+"Unintentional suffocation","Amputation of finger (excluding thumb)",1349.358
+"Unintentional suffocation","Spinal cord lesion below neck level",12816.91
+"Unintentional suffocation","Fracture of femur, other than femoral neck",17617.84
+"Unintentional suffocation","Non-fatal submersion",104.9365
+"Unintentional suffocation","Crush injury",7584.468
+"Unintentional suffocation","Moderate to severe traumatic brain injury",55807
+"Unintentional suffocation","Amputation of both upper limbs",.4181895
+"Unintentional suffocation","Fracture of pelvis",7195.551
+"Unintentional suffocation","Multiple significant injuries",267803.5
+"Unintentional suffocation","Severe chest Injury",2888.079
+"Unintentional suffocation","Fracture of sternum or rib(s)",3043.82
+"Unintentional suffocation","Fracture of foot bone",2209.298
+"Unintentional suffocation","Environmental factors (e.g. temperature, pressure, electricity)",4367.949
+"Unintentional suffocation","Fracture of radius or ulna",19064.88
+"Unintentional suffocation","Amputation of thumb",5293.575
+"Unintentional suffocation","Amputation of one lower limb",815.8262
+"Unintentional suffocation","Burns with <20% total burned surface area",181.1595
+"Unintentional suffocation","Spinal cord lesion at neck level",5008.384
+"Unintentional suffocation","Minor traumatic brain injury",4840.423
+"Unintentional suffocation","Dislocation of shoulder",632.0818
+"Unintentional suffocation","Fracture of skull",50476.84
+"Unintentional suffocation","Fracture of vertebral column",69700.05
+"Unintentional suffocation","Fracture of clavicle, scapula, or humerus",7859.79
+"Adverse effects of medical treatment","Complications of medical treatment",5226941
+"Other unintentional injuries","Fracture of femur, other than femoral neck",201072.6
+"Other unintentional injuries","Contusion",71546.59
+"Other unintentional injuries","Fracture of hand bone",307166.3
+"Other unintentional injuries","Amputation of toe",287.7677
+"Other unintentional injuries","Complications of medical treatment",93184.76
+"Other unintentional injuries","Open wound",230491.1
+"Other unintentional injuries","Minor traumatic brain injury",70992.05
+"Other unintentional injuries","Amputation of both lower limbs",549.5314
+"Other unintentional injuries","Amputation of one upper limb",4123.386
+"Other unintentional injuries","Injured nerves",43668.18
+"Other unintentional injuries","Fracture of radius or ulna",165799.7
+"Other unintentional injuries","Fracture of skull",244779.9
+"Other unintentional injuries","Lower airway burns",2170.322
+"Other unintentional injuries","Fracture of foot bone",38611.49
+"Other unintentional injuries","Asphyxiation",33.1694
+"Other unintentional injuries","Dislocation of shoulder",18334.8
+"Other unintentional injuries","Spinal cord lesion at neck level",5021.174
+"Other unintentional injuries","Amputation of thumb",38351.18
+"Other unintentional injuries","Fracture of vertebral column",2129094
+"Other unintentional injuries","Injury to eyes (including foreign body eye)",41873.38
+"Other unintentional injuries","Dislocation of knee",28014.11
+"Other unintentional injuries","Fracture of pelvis",197860.4
+"Other unintentional injuries","Crush injury",58722.99
+"Other unintentional injuries","Burns with <20% total burned surface area",85544.86
+"Other unintentional injuries","Amputation of both upper limbs",9612.515
+"Other unintentional injuries","Fracture of face bone",15360.82
+"Other unintentional injuries","Fracture of sternum or rib(s)",121791.9
+"Other unintentional injuries","Fracture of clavicle, scapula, or humerus",180183
+"Other unintentional injuries","Moderate to severe traumatic brain injury",229463.3
+"Other unintentional injuries","Fracture of neck of femur",543615.9
+"Other unintentional injuries","Other injuries of muscle & tendon and other dislocations",25410.21
+"Other unintentional injuries","Non-fatal submersion",258.6477
+"Other unintentional injuries","Dislocation of hip",31116.56
+"Other unintentional injuries","Internal hemorrhage in abdomen or pelvis",414497.9
+"Other unintentional injuries","Environmental factors (e.g. temperature, pressure, electricity)",396810.4
+"Other unintentional injuries","Multiple significant injuries",5078104
+"Other unintentional injuries","Amputation of one lower limb",10832.25
+"Other unintentional injuries","Poisoning",983282.6
+"Other unintentional injuries","Fracture of patella, tibia, fibula, or ankle",1368610
+"Other unintentional injuries","Severe chest Injury",25385.36
+"Other unintentional injuries","Burns with >=20% total burned surface area or >=10% if burns include face and/or hands",56399.81
+"Other unintentional injuries","Spinal cord lesion below neck level",96387.02
+"Other unintentional injuries","Amputation of finger (excluding thumb)",23925.41
+"Poisonings","Fracture of patella, tibia, fibula, or ankle",4695.687
+"Poisonings","Minor traumatic brain injury",2130.043
+"Poisonings","Other injuries of muscle & tendon and other dislocations",205.1394
+"Poisonings","Amputation of thumb",9.402407
+"Poisonings","Open wound",593.1675
+"Poisonings","Injury to eyes (including foreign body eye)",155.7966
+"Poisonings","Amputation of finger (excluding thumb)",71.4091
+"Poisonings","Severe chest Injury",426.7196
+"Poisonings","Environmental factors (e.g. temperature, pressure, electricity)",1427.815
+"Poisonings","Fracture of clavicle, scapula, or humerus",537.1772
+"Poisonings","Poisoning",771315.4
+"Poisonings","Amputation of one lower limb",566.0573
+"Poisonings","Injured nerves",406.8562
+"Poisonings","Dislocation of shoulder",86.60153
+"Poisonings","Fracture of foot bone",333.1644
+"Poisonings","Spinal cord lesion below neck level",6485.127
+"Poisonings","Crush injury",296.6167
+"Poisonings","Fracture of face bone",400.6194
+"Poisonings","Moderate to severe traumatic brain injury",6822.102
+"Poisonings","Amputation of one upper limb",50.48111
+"Poisonings","Burns with >=20% total burned surface area or >=10% if burns include face and/or hands",1578.794
+"Poisonings","Non-fatal submersion",25.05962
+"Poisonings","Dislocation of hip",25.82864
+"Poisonings","Complications of medical treatment",3489.792
+"Poisonings","Multiple significant injuries",4551.542
+"Poisonings","Asphyxiation",3.642457
+"Poisonings","Fracture of sternum or rib(s)",55.82244
+"Poisonings","Amputation of both upper limbs",70.28925
+"Poisonings","Burns with <20% total burned surface area",3723.138
+"Poisonings","Spinal cord lesion at neck level",1139.745
+"Poisonings","Fracture of radius or ulna",2300.739
+"Poisonings","Fracture of skull",635.9734
+"Poisonings","Fracture of pelvis",788.1147
+"Poisonings","Amputation of toe",2.225208
+"Poisonings","Fracture of femur, other than femoral neck",825.0261
+"Poisonings","Dislocation of knee",153.4789
+"Poisonings","Fracture of neck of femur",1494.909
+"Poisonings","Fracture of vertebral column",910.2102
+"Poisonings","Internal hemorrhage in abdomen or pelvis",5883.944
+"Poisonings","Fracture of hand bone",278.2313
+"Poisonings","Contusion",251.4004
+"Poisonings","Lower airway burns",3086.055
+"Self-harm","Fracture of radius or ulna",5835.102
+"Self-harm","Burns with <20% total burned surface area",2027.753
+"Self-harm","Complications of medical treatment",13163.85
+"Self-harm","Injured nerves",16500.46
+"Self-harm","Fracture of pelvis",3427.563
+"Self-harm","Environmental factors (e.g. temperature, pressure, electricity)",4184.76
+"Self-harm","Dislocation of shoulder",94.74693
+"Self-harm","Asphyxiation",2297.336
+"Self-harm","Dislocation of hip",97.46468
+"Self-harm","Fracture of hand bone",5704.645
+"Self-harm","Amputation of finger (excluding thumb)",930.3956
+"Self-harm","Fracture of vertebral column",7940.012
+"Self-harm","Fracture of femur, other than femoral neck",4021.722
+"Self-harm","Crush injury",4183.792
+"Self-harm","Amputation of both upper limbs",6944.798
+"Self-harm","Amputation of both lower limbs",236.7489
+"Self-harm","Amputation of one upper limb",1691.517
+"Self-harm","Spinal cord lesion at neck level",1627.604
+"Self-harm","Fracture of foot bone",2694.947
+"Self-harm","Fracture of skull",8624.732
+"Self-harm","Poisoning",389311.8
+"Self-harm","Fracture of patella, tibia, fibula, or ankle",18185.21
+"Self-harm","Fracture of clavicle, scapula, or humerus",1579.924
+"Self-harm","Contusion",1128.88
+"Self-harm","Moderate to severe traumatic brain injury",41562.35
+"Self-harm","Internal hemorrhage in abdomen or pelvis",36185.75
+"Self-harm","Fracture of neck of femur",3537.42
+"Self-harm","Lower airway burns",1663.479
+"Self-harm","Burns with >=20% total burned surface area or >=10% if burns include face and/or hands",6146.697
+"Self-harm","Open wound",34116.75
+"Self-harm","Minor traumatic brain injury",5949.522
+"Self-harm","Amputation of thumb",676.7424
+"Self-harm","Severe chest Injury",8615.271
+"Self-harm","Other injuries of muscle & tendon and other dislocations",3200.396
+"Self-harm","Injury to eyes (including foreign body eye)",680.0956
+"Self-harm","Amputation of toe",66.27264
+"Self-harm","Fracture of face bone",1674.435
+"Self-harm","Fracture of sternum or rib(s)",438.7418
+"Self-harm","Spinal cord lesion below neck level",16940.46
+"Self-harm","Non-fatal submersion",90.73683
+"Self-harm","Amputation of one lower limb",5012.252
+"Self-harm","Multiple significant injuries",28404.9
+"Self-harm","Dislocation of knee",89.84458
+"Other transport injuries","Environmental factors (e.g. temperature, pressure, electricity)",9075.18
+"Other transport injuries","Asphyxiation",237.8584
+"Other transport injuries","Dislocation of shoulder",3610.226
+"Other transport injuries","Dislocation of knee",24801.56
+"Other transport injuries","Minor traumatic brain injury",70230.75
+"Other transport injuries","Fracture of vertebral column",299661.3
+"Other transport injuries","Fracture of patella, tibia, fibula, or ankle",878810.9
+"Other transport injuries","Moderate to severe traumatic brain injury",237107.8
+"Other transport injuries","Fracture of clavicle, scapula, or humerus",65641.19
+"Other transport injuries","Injury to eyes (including foreign body eye)",2867.72
+"Other transport injuries","Amputation of toe",2792.052
+"Other transport injuries","Fracture of face bone",20180.18
+"Other transport injuries","Amputation of one upper limb",22543.11
+"Other transport injuries","Open wound",49733.96
+"Other transport injuries","Amputation of thumb",5212.373
+"Other transport injuries","Other injuries of muscle & tendon and other dislocations",6133.959
+"Other transport injuries","Severe chest Injury",30311.04
+"Other transport injuries","Lower airway burns",4900.353
+"Other transport injuries","Contusion",42284.38
+"Other transport injuries","Multiple significant injuries",176245.8
+"Other transport injuries","Fracture of pelvis",187135.2
+"Other transport injuries","Burns with >=20% total burned surface area or >=10% if burns include face and/or hands",3836.492
+"Other transport injuries","Burns with <20% total burned surface area",36609.02
+"Other transport injuries","Fracture of femur, other than femoral neck",102564.5
+"Other transport injuries","Amputation of both lower limbs",53723.94
+"Other transport injuries","Dislocation of hip",5947.667
+"Other transport injuries","Injured nerves",46919.45
+"Other transport injuries","Fracture of sternum or rib(s)",53942.73
+"Other transport injuries","Amputation of one lower limb",69845.5
+"Other transport injuries","Internal hemorrhage in abdomen or pelvis",142544.1
+"Other transport injuries","Spinal cord lesion below neck level",9191.991
+"Other transport injuries","Fracture of hand bone",131057.9
+"Other transport injuries","Amputation of both upper limbs",22251.94
+"Other transport injuries","Amputation of finger (excluding thumb)",7287.691
+"Other transport injuries","Fracture of skull",282764.9
+"Other transport injuries","Fracture of neck of femur",153736.1
+"Other transport injuries","Poisoning",88871.84
+"Other transport injuries","Fracture of foot bone",21610.61
+"Other transport injuries","Crush injury",46001.21
+"Other transport injuries","Spinal cord lesion at neck level",3247.767
+"Other transport injuries","Fracture of radius or ulna",147899.9
+"Other transport injuries","Non-fatal submersion",518.5038
+"Other transport injuries","Complications of medical treatment",77152.9
+"Road injuries","Fracture of pelvis",1155387
+"Road injuries","Environmental factors (e.g. temperature, pressure, electricity)",18017.98
+"Road injuries","Fracture of patella, tibia, fibula, or ankle",6477646
+"Road injuries","Amputation of both upper limbs",48259.68
+"Road injuries","Fracture of skull",2260940
+"Road injuries","Injury to eyes (including foreign body eye)",26997.85
+"Road injuries","Amputation of finger (excluding thumb)",10544.52
+"Road injuries","Fracture of hand bone",367345.4
+"Road injuries","Amputation of one upper limb",19215.03
+"Road injuries","Non-fatal submersion",392.7126
+"Road injuries","Fracture of foot bone",231328.2
+"Road injuries","Amputation of thumb",7233.537
+"Road injuries","Fracture of sternum or rib(s)",270253.3
+"Road injuries","Minor traumatic brain injury",1037543
+"Road injuries","Lower airway burns",2637.457
+"Road injuries","Burns with >=20% total burned surface area or >=10% if burns include face and/or hands",84551.67
+"Road injuries","Fracture of femur, other than femoral neck",1779154
+"Road injuries","Crush injury",363988.8
+"Road injuries","Complications of medical treatment",213486.4
+"Road injuries","Fracture of vertebral column",2136596
+"Road injuries","Amputation of toe",3754.652
+"Road injuries","Spinal cord lesion below neck level",1265668
+"Road injuries","Spinal cord lesion at neck level",162912.2
+"Road injuries","Fracture of neck of femur",2130631
+"Road injuries","Fracture of radius or ulna",1028548
+"Road injuries","Asphyxiation",71.12612
+"Road injuries","Dislocation of shoulder",15314.19
+"Road injuries","Multiple significant injuries",3.63e+07
+"Road injuries","Moderate to severe traumatic brain injury",8599766
+"Road injuries","Fracture of clavicle, scapula, or humerus",681850.6
+"Road injuries","Dislocation of hip",58483.42
+"Road injuries","Amputation of one lower limb",141419.8
+"Road injuries","Other injuries of muscle & tendon and other dislocations",123168.4
+"Road injuries","Amputation of both lower limbs",6085.804
+"Road injuries","Poisoning",55358.82
+"Road injuries","Severe chest Injury",313430.7
+"Road injuries","Dislocation of knee",31355.97
+"Road injuries","Internal hemorrhage in abdomen or pelvis",1640414
+"Road injuries","Fracture of face bone",212067.3
+"Road injuries","Injured nerves",233611.3
+"Road injuries","Burns with <20% total burned surface area",45404.98
+"Road injuries","Contusion",270741.6
+"Road injuries","Open wound",880015.6
+"Motorcyclist road injuries","Fracture of vertebral column",203457
+"Motorcyclist road injuries","Asphyxiation",10.90243
+"Motorcyclist road injuries","Fracture of face bone",66830.7
+"Motorcyclist road injuries","Severe chest Injury",71495.7
+"Motorcyclist road injuries","Dislocation of knee",12040.38
+"Motorcyclist road injuries","Amputation of finger (excluding thumb)",2847.877
+"Motorcyclist road injuries","Open wound",249796.6
+"Motorcyclist road injuries","Internal hemorrhage in abdomen or pelvis",390094.4
+"Motorcyclist road injuries","Spinal cord lesion at neck level",31942.66
+"Motorcyclist road injuries","Amputation of both upper limbs",8744.586
+"Motorcyclist road injuries","Complications of medical treatment",41406.58
+"Motorcyclist road injuries","Fracture of clavicle, scapula, or humerus",188741.5
+"Motorcyclist road injuries","Amputation of both lower limbs",938.9088
+"Motorcyclist road injuries","Spinal cord lesion below neck level",319408.8
+"Motorcyclist road injuries","Crush injury",107112.2
+"Motorcyclist road injuries","Fracture of sternum or rib(s)",34317.82
+"Motorcyclist road injuries","Fracture of foot bone",93186.02
+"Motorcyclist road injuries","Contusion",17275.89
+"Motorcyclist road injuries","Fracture of femur, other than femoral neck",424746.6
+"Motorcyclist road injuries","Injured nerves",54352.71
+"Motorcyclist road injuries","Fracture of radius or ulna",288535.3
+"Motorcyclist road injuries","Other injuries of muscle & tendon and other dislocations",37618.5
+"Motorcyclist road injuries","Environmental factors (e.g. temperature, pressure, electricity)",4575.419
+"Motorcyclist road injuries","Injury to eyes (including foreign body eye)",4937.067
+"Motorcyclist road injuries","Fracture of patella, tibia, fibula, or ankle",1451353
+"Motorcyclist road injuries","Fracture of neck of femur",327991.4
+"Motorcyclist road injuries","Fracture of skull",536783.3
+"Motorcyclist road injuries","Burns with <20% total burned surface area",15681.77
+"Motorcyclist road injuries","Dislocation of hip",10740.86
+"Motorcyclist road injuries","Amputation of thumb",2478.656
+"Motorcyclist road injuries","Poisoning",5126.258
+"Motorcyclist road injuries","Fracture of hand bone",104660.9
+"Motorcyclist road injuries","Lower airway burns",259.8318
+"Motorcyclist road injuries","Moderate to severe traumatic brain injury",1859995
+"Motorcyclist road injuries","Burns with >=20% total burned surface area or >=10% if burns include face and/or hands",22288.59
+"Motorcyclist road injuries","Dislocation of shoulder",5053.747
+"Motorcyclist road injuries","Non-fatal submersion",11.04085
+"Motorcyclist road injuries","Minor traumatic brain injury",199387.8
+"Motorcyclist road injuries","Fracture of pelvis",187929.4
+"Motorcyclist road injuries","Amputation of one lower limb",58517.21
+"Motorcyclist road injuries","Multiple significant injuries",6240040
+"Motorcyclist road injuries","Amputation of toe",1144.109
+"Motorcyclist road injuries","Amputation of one upper limb",3832.978
+"Motor vehicle road injuries","Fracture of patella, tibia, fibula, or ankle",2908218
+"Motor vehicle road injuries","Fracture of hand bone",130191.1
+"Motor vehicle road injuries","Fracture of face bone",71260
+"Motor vehicle road injuries","Multiple significant injuries",2.10e+07
+"Motor vehicle road injuries","Fracture of pelvis",648724.7
+"Motor vehicle road injuries","Spinal cord lesion at neck level",88032.02
+"Motor vehicle road injuries","Amputation of toe",590.7813
+"Motor vehicle road injuries","Burns with >=20% total burned surface area or >=10% if burns include face and/or hands",14820.35
+"Motor vehicle road injuries","Fracture of radius or ulna",310334.3
+"Motor vehicle road injuries","Amputation of one lower limb",22045.75
+"Motor vehicle road injuries","Injured nerves",106838.9
+"Motor vehicle road injuries","Amputation of thumb",2501.35
+"Motor vehicle road injuries","Internal hemorrhage in abdomen or pelvis",663573.9
+"Motor vehicle road injuries","Fracture of skull",782958.8
+"Motor vehicle road injuries","Crush injury",114230.7
+"Motor vehicle road injuries","Amputation of finger (excluding thumb)",3761.45
+"Motor vehicle road injuries","Poisoning",20893.96
+"Motor vehicle road injuries","Fracture of neck of femur",916550.6
+"Motor vehicle road injuries","Complications of medical treatment",33570.71
+"Motor vehicle road injuries","Asphyxiation",20.80945
+"Motor vehicle road injuries","Amputation of both upper limbs",18776.16
+"Motor vehicle road injuries","Fracture of foot bone",56748.51
+"Motor vehicle road injuries","Dislocation of knee",7354.059
+"Motor vehicle road injuries","Other injuries of muscle & tendon and other dislocations",41643.96
+"Motor vehicle road injuries","Spinal cord lesion below neck level",669389.8
+"Motor vehicle road injuries","Amputation of both lower limbs",2040.96
+"Motor vehicle road injuries","Lower airway burns",1154.091
+"Motor vehicle road injuries","Severe chest Injury",155511.7
+"Motor vehicle road injuries","Fracture of femur, other than femoral neck",845372
+"Motor vehicle road injuries","Minor traumatic brain injury",494688.3
+"Motor vehicle road injuries","Amputation of one upper limb",9185.433
+"Motor vehicle road injuries","Dislocation of hip",36027.23
+"Motor vehicle road injuries","Injury to eyes (including foreign body eye)",13528.76
+"Motor vehicle road injuries","Burns with <20% total burned surface area",19147.69
+"Motor vehicle road injuries","Non-fatal submersion",205.1284
+"Motor vehicle road injuries","Environmental factors (e.g. temperature, pressure, electricity)",6950.566
+"Motor vehicle road injuries","Contusion",174408.8
+"Motor vehicle road injuries","Moderate to severe traumatic brain injury",3466170
+"Motor vehicle road injuries","Fracture of vertebral column",888063.6
+"Motor vehicle road injuries","Open wound",347430.6
+"Motor vehicle road injuries","Dislocation of shoulder",3592.421
+"Motor vehicle road injuries","Fracture of clavicle, scapula, or humerus",225456.3
+"Motor vehicle road injuries","Fracture of sternum or rib(s)",176116.5
+"Other road injuries","Open wound",5618.728
+"Other road injuries","Dislocation of knee",262.4741
+"Other road injuries","Fracture of radius or ulna",33690.96
+"Other road injuries","Fracture of pelvis",9082.51
+"Other road injuries","Internal hemorrhage in abdomen or pelvis",10657.1
+"Other road injuries","Spinal cord lesion at neck level",2894.302
+"Other road injuries","Fracture of vertebral column",11594.43
+"Other road injuries","Amputation of one upper limb",139.9401
+"Other road injuries","Complications of medical treatment",1602.119
+"Other road injuries","Injured nerves",1888.729
+"Other road injuries","Dislocation of hip",474.2123
+"Other road injuries","Spinal cord lesion below neck level",28195.47
+"Other road injuries","Fracture of foot bone",2489.678
+"Other road injuries","Non-fatal submersion",3.118067
+"Other road injuries","Severe chest Injury",4671.057
+"Other road injuries","Amputation of one lower limb",674.1246
+"Other road injuries","Amputation of finger (excluding thumb)",129.9675
+"Other road injuries","Fracture of sternum or rib(s)",2842.127
+"Other road injuries","Multiple significant injuries",181626.8
+"Other road injuries","Fracture of hand bone",3990.883
+"Other road injuries","Burns with >=20% total burned surface area or >=10% if burns include face and/or hands",518.6274
+"Other road injuries","Contusion",1468.854
+"Other road injuries","Fracture of skull",16969.34
+"Other road injuries","Dislocation of shoulder",308.3718
+"Other road injuries","Fracture of neck of femur",42174.48
+"Other road injuries","Injury to eyes (including foreign body eye)",277.0132
+"Other road injuries","Fracture of face bone",1984.727
+"Other road injuries","Fracture of clavicle, scapula, or humerus",13542.75
+"Other road injuries","Amputation of both lower limbs",120.3779
+"Other road injuries","Amputation of both upper limbs",427.2079
+"Other road injuries","Poisoning",455.4377
+"Other road injuries","Moderate to severe traumatic brain injury",117217.9
+"Other road injuries","Other injuries of muscle & tendon and other dislocations",1925.249
+"Other road injuries","Burns with <20% total burned surface area",116.4705
+"Other road injuries","Fracture of patella, tibia, fibula, or ankle",79407.46
+"Other road injuries","Fracture of femur, other than femoral neck",14423.29
+"Other road injuries","Amputation of toe",43.26817
+"Other road injuries","Amputation of thumb",757.6207
+"Other road injuries","Minor traumatic brain injury",8007.911
+"Other road injuries","Crush injury",2392.071
+"Other road injuries","Environmental factors (e.g. temperature, pressure, electricity)",52.86414
+"Cyclist road injuries","Spinal cord lesion below neck level",56263.24
+"Cyclist road injuries","Amputation of thumb",511.0733
+"Cyclist road injuries","Fracture of face bone",23328.82
+"Cyclist road injuries","Other injuries of muscle & tendon and other dislocations",8580.074
+"Cyclist road injuries","Poisoning",2333.749
+"Cyclist road injuries","Amputation of finger (excluding thumb)",772.0335
+"Cyclist road injuries","Amputation of one lower limb",4201.021
+"Cyclist road injuries","Fracture of radius or ulna",216796.9
+"Cyclist road injuries","Fracture of pelvis",55672.16
+"Cyclist road injuries","Crush injury",26271.63
+"Cyclist road injuries","Fracture of clavicle, scapula, or humerus",140074.2
+"Cyclist road injuries","Fracture of foot bone",15421.12
+"Cyclist road injuries","Severe chest Injury",18432.33
+"Cyclist road injuries","Fracture of hand bone",74784.55
+"Cyclist road injuries","Contusion",18893.98
+"Cyclist road injuries","Fracture of sternum or rib(s)",40906.33
+"Cyclist road injuries","Lower airway burns",243.0693
+"Cyclist road injuries","Amputation of both lower limbs",53.5576
+"Cyclist road injuries","Open wound",121033.5
+"Cyclist road injuries","Dislocation of shoulder",3589.489
+"Cyclist road injuries","Fracture of patella, tibia, fibula, or ankle",681555.8
+"Cyclist road injuries","Moderate to severe traumatic brain injury",778079.1
+"Cyclist road injuries","Dislocation of knee",2349.893
+"Cyclist road injuries","Environmental factors (e.g. temperature, pressure, electricity)",600.96
+"Cyclist road injuries","Burns with >=20% total burned surface area or >=10% if burns include face and/or hands",12214.26
+"Cyclist road injuries","Multiple significant injuries",1570083
+"Cyclist road injuries","Fracture of femur, other than femoral neck",78191.66
+"Cyclist road injuries","Burns with <20% total burned surface area",1130.491
+"Cyclist road injuries","Amputation of both upper limbs",1734.07
+"Cyclist road injuries","Fracture of vertebral column",522007.4
+"Cyclist road injuries","Injury to eyes (including foreign body eye)",2305.39
+"Cyclist road injuries","Spinal cord lesion at neck level",13986.29
+"Cyclist road injuries","Minor traumatic brain injury",118544.4
+"Cyclist road injuries","Fracture of skull",118524
+"Cyclist road injuries","Complications of medical treatment",9594.295
+"Cyclist road injuries","Dislocation of hip",1543.746
+"Cyclist road injuries","Injured nerves",14804.95
+"Cyclist road injuries","Non-fatal submersion",16.18131
+"Cyclist road injuries","Amputation of toe",1172.101
+"Cyclist road injuries","Internal hemorrhage in abdomen or pelvis",105455.8
+"Cyclist road injuries","Fracture of neck of femur",378432.8
+"Cyclist road injuries","Amputation of one upper limb",286.4212
+"Pedestrian road injuries by road vehicle","Moderate to severe traumatic brain injury",2378304
+"Pedestrian road injuries by road vehicle","Amputation of both upper limbs",18577.65
+"Pedestrian road injuries by road vehicle","Dislocation of shoulder",2770.159
+"Pedestrian road injuries by road vehicle","Lower airway burns",980.4647
+"Pedestrian road injuries by road vehicle","Fracture of patella, tibia, fibula, or ankle",1357112
+"Pedestrian road injuries by road vehicle","Fracture of radius or ulna",179190.1
+"Pedestrian road injuries by road vehicle","Other injuries of muscle & tendon and other dislocations",33400.58
+"Pedestrian road injuries by road vehicle","Burns with <20% total burned surface area",9328.557
+"Pedestrian road injuries by road vehicle","Amputation of thumb",984.8373
+"Pedestrian road injuries by road vehicle","Amputation of toe",804.3931
+"Pedestrian road injuries by road vehicle","Environmental factors (e.g. temperature, pressure, electricity)",5838.168
+"Pedestrian road injuries by road vehicle","Fracture of sternum or rib(s)",16070.56
+"Pedestrian road injuries by road vehicle","Non-fatal submersion",157.2439
+"Pedestrian road injuries by road vehicle","Multiple significant injuries",7278279
+"Pedestrian road injuries by road vehicle","Amputation of one lower limb",55981.71
+"Pedestrian road injuries by road vehicle","Open wound",156136.1
+"Pedestrian road injuries by road vehicle","Fracture of neck of femur",465481.7
+"Pedestrian road injuries by road vehicle","Fracture of clavicle, scapula, or humerus",114035.9
+"Pedestrian road injuries by road vehicle","Crush injury",113982.2
+"Pedestrian road injuries by road vehicle","Fracture of femur, other than femoral neck",416420.3
+"Pedestrian road injuries by road vehicle","Amputation of one upper limb",5770.258
+"Pedestrian road injuries by road vehicle","Injury to eyes (including foreign body eye)",5949.617
+"Pedestrian road injuries by road vehicle","Internal hemorrhage in abdomen or pelvis",470632.4
+"Pedestrian road injuries by road vehicle","Poisoning",26549.41
+"Pedestrian road injuries by road vehicle","Dislocation of knee",9349.173
+"Pedestrian road injuries by road vehicle","Spinal cord lesion at neck level",26056.89
+"Pedestrian road injuries by road vehicle","Dislocation of hip",9697.382
+"Pedestrian road injuries by road vehicle","Spinal cord lesion below neck level",192410.6
+"Pedestrian road injuries by road vehicle","Amputation of finger (excluding thumb)",3033.192
+"Pedestrian road injuries by road vehicle","Amputation of both lower limbs",2931.999
+"Pedestrian road injuries by road vehicle","Fracture of skull",805704.9
+"Pedestrian road injuries by road vehicle","Injured nerves",55726.06
+"Pedestrian road injuries by road vehicle","Fracture of foot bone",63482.86
+"Pedestrian road injuries by road vehicle","Severe chest Injury",63319.93
+"Pedestrian road injuries by road vehicle","Fracture of pelvis",253978.1
+"Pedestrian road injuries by road vehicle","Asphyxiation",39.41423
+"Pedestrian road injuries by road vehicle","Contusion",58694.14
+"Pedestrian road injuries by road vehicle","Complications of medical treatment",127312.7
+"Pedestrian road injuries by road vehicle","Burns with >=20% total burned surface area or >=10% if burns include face and/or hands",34709.84
+"Pedestrian road injuries by road vehicle","Fracture of vertebral column",511473
+"Pedestrian road injuries by road vehicle","Minor traumatic brain injury",216914.3
+"Pedestrian road injuries by road vehicle","Fracture of face bone",48663.04
+"Pedestrian road injuries by road vehicle","Fracture of hand bone",53717.97
+"Collective violence and legal intervention","Fracture of face bone",63204.88
+"Collective violence and legal intervention","Dislocation of knee",15918.2
+"Collective violence and legal intervention","Severe chest Injury",51713
+"Collective violence and legal intervention","Amputation of one upper limb",2781.005
+"Collective violence and legal intervention","Environmental factors (e.g. temperature, pressure, electricity)",18324.76
+"Collective violence and legal intervention","Other injuries of muscle & tendon and other dislocations",13982.56
+"Collective violence and legal intervention","Asphyxiation",926.0232
+"Collective violence and legal intervention","Open wound",21808.69
+"Collective violence and legal intervention","Burns with <20% total burned surface area",21628.42
+"Collective violence and legal intervention","Fracture of hand bone",45754.03
+"Collective violence and legal intervention","Fracture of neck of femur",1010358
+"Collective violence and legal intervention","Spinal cord lesion at neck level",33781.7
+"Collective violence and legal intervention","Non-fatal submersion",612.562
+"Collective violence and legal intervention","Fracture of sternum or rib(s)",179149.4
+"Collective violence and legal intervention","Fracture of clavicle, scapula, or humerus",26207.44
+"Collective violence and legal intervention","Fracture of pelvis",49489.38
+"Collective violence and legal intervention","Multiple significant injuries",1020600
+"Collective violence and legal intervention","Complications of medical treatment",139862.3
+"Collective violence and legal intervention","Fracture of skull",162480.4
+"Collective violence and legal intervention","Amputation of both upper limbs",33037.58
+"Collective violence and legal intervention","Fracture of vertebral column",165050
+"Collective violence and legal intervention","Injury to eyes (including foreign body eye)",11252.81
+"Collective violence and legal intervention","Amputation of thumb",219.5946
+"Collective violence and legal intervention","Amputation of finger (excluding thumb)",2249.544
+"Collective violence and legal intervention","Moderate to severe traumatic brain injury",302290.1
+"Collective violence and legal intervention","Dislocation of shoulder",11406.13
+"Collective violence and legal intervention","Contusion",699.6907
+"Collective violence and legal intervention","Fracture of femur, other than femoral neck",51957.49
+"Collective violence and legal intervention","Amputation of toe",1143.311
+"Collective violence and legal intervention","Internal hemorrhage in abdomen or pelvis",235048.8
+"Collective violence and legal intervention","Amputation of both lower limbs",1917.691
+"Collective violence and legal intervention","Poisoning",55181.4
+"Collective violence and legal intervention","Dislocation of hip",14771.98
+"Collective violence and legal intervention","Fracture of patella, tibia, fibula, or ankle",145734.8
+"Collective violence and legal intervention","Injured nerves",44559.03
+"Collective violence and legal intervention","Crush injury",4882.329
+"Collective violence and legal intervention","Spinal cord lesion below neck level",140676.9
+"Collective violence and legal intervention","Fracture of foot bone",12413.28
+"Collective violence and legal intervention","Minor traumatic brain injury",50046.76
+"Collective violence and legal intervention","Burns with >=20% total burned surface area or >=10% if burns include face and/or hands",9989.723
+"Collective violence and legal intervention","Amputation of one lower limb",39105.5
+"Collective violence and legal intervention","Fracture of radius or ulna",44547.48
