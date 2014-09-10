@@ -85,7 +85,8 @@ var drawAxisLabels = function() {
 drawAxisLabels()
 
 // load the data (using the timelyportfolio csv method)
-d3.csv("sankey.csv", function(error, data) {
+draw = function(url) {
+d3.csv(url, function(error, data) {
 
   //set up graph in same style as original example but empty
   graph = {"nodes" : [], "links" : []};
@@ -234,6 +235,9 @@ d3.csv("sankey.csv", function(error, data) {
   }
 	
 });
+}
+
+draw("sankey.csv")
 
 </script>
 
