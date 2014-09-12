@@ -345,6 +345,7 @@ drawAxisLabels()
 
 // Define functions
  // FUNCTION TO HIGHLIGHT ALL LINKS CONNECTED TO A NODE
+ /*
    function highlight_link(id,opacity){
       d3.select("#link-"+id).style("stroke-opacity", opacity);
   }
@@ -389,7 +390,7 @@ drawAxisLabels()
       }
     });
   }
-
+*/
   
 // the function for moving the nodes
   function dragmove(d) {
@@ -414,55 +415,11 @@ var linkFunc = function(link) {
 }
 
 var nodeRectFunc = function(node) {
-   function highlight_link(id,opacity){
-      d3.select("#link-"+id).style("stroke-opacity", opacity);
-  }
-  
-  function highlight_node_links(node,i){
-
-    var remainingNodes=[],
-        nextNodes=[];
-
-    var stroke_opacity = 0.03;
-    if( d3.select(this).attr("data-clicked") == "1" ){
-      d3.select(this).attr("data-clicked","0");
-      stroke_opacity = 0.03;
-    }else{
-      d3.select(this).attr("data-clicked","1");
-      stroke_opacity = 0.5;
-    }
-	console.log("test", i, node)
-    var traverse = [{
-                      linkType : "sourceLinks",
-                      nodeType : "target"
-                    },{
-                      linkType : "targetLinks",
-                      nodeType : "source"
-                    }];
-
-    traverse.forEach(function(step){
-      node[step.linkType].forEach(function(link) {
-        remainingNodes.push(link[step.nodeType]);
-        highlight_link(link.id, stroke_opacity);
-      });
-
-      while (remainingNodes.length) {
-        nextNodes = [];
-        remainingNodes.forEach(function(node) {
-          node[step.linkType].forEach(function(link) {
-            nextNodes.push(link[step.nodeType]);
-            highlight_link(link.id, stroke_opacity);
-          });
-        });
-        remainingNodes = nextNodes;
-      }
-    });
-  }
   node
     .attr("class", "node")
     .attr("transform", function(d) { 
 		  return "translate(" + d.x + "," + d.y + ")"; })
-	.on("click", highlight_node_links)
+	// .on("click", highlight_node_links)
     .call(d3.behavior.drag()
     .origin(function(d) { return d; })
     .on("dragstart", function() { 
