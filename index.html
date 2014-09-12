@@ -417,7 +417,7 @@ var nodeRectFunc = function(node) {
         .attr("class", "node")
     .attr("transform", function(d) { 
 		  return "translate(" + d.x + "," + d.y + ")"; })
-	.on("click", highlight_node_links)
+	// .on("click", highlight_node_links)
     .call(d3.behavior.drag()
       .origin(function(d) { return d; })
       .on("dragstart", function() { 
@@ -492,7 +492,7 @@ d3.csv(url, function(error, data) {
   var nodeRects = svg.append("g").selectAll(".node")
       .data(graph.nodes, function(d) {return d.id})
 
-	nodeRects.enter().append("rect").call(nodeRectFunc)		
+	nodeRects.enter().append("rect").call(nodeRectFunc).on("click", highlight_node_links)		
 
 	nodeRects.exit().remove();
 		
