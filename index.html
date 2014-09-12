@@ -356,7 +356,16 @@ var linkFunc = function(link) {
 }
 
 var nodeRectFunc = function(node) {
-  node.append("rect")
+  node
+        .attr("class", "node")
+    .attr("transform", function(d) { 
+		  return "translate(" + d.x + "," + d.y + ")"; })
+	.on("click",highlight_node_links)
+    .call(d3.behavior.drag()
+      .origin(function(d) { return d; })
+      .on("dragstart", function() { 
+		  this.parentNode.appendChild(this); })
+      .on("drag", dragmove))
       .attr("height", function(d) { return d.dy; })
       .attr("width", sankey.nodeWidth())
       .style("fill", function(d) { 
@@ -434,17 +443,8 @@ d3.csv(url, function(error, data) {
 // add in the nodes
   var nodeRects = nodeGRects.selectAll(".node")
       .data(graph.nodes)
-	  .enter().append("g")
-      .attr("class", "node")
-    .attr("transform", function(d) { 
-		  return "translate(" + d.x + "," + d.y + ")"; })
-	.on("click",highlight_node_links)
-    .call(d3.behavior.drag()
-      .origin(function(d) { return d; })
-      .on("dragstart", function() { 
-		  this.parentNode.appendChild(this); })
-      .on("drag", dragmove))
-		.call(nodeRectFunc);
+
+		nodeRects.enter().append("rect").call(nodeRectFunc)
 		
 // add the rectangles for the nodes
 
