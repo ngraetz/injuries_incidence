@@ -95,7 +95,7 @@ d3.csv(url, function(error, data) {
 
 // add in the links
   var link = svg.append("g").selectAll(".link")
-      .data(graph.links, function(d) {return d.id})
+      .data(graph.links)
 	  
 	link.enter().append("path").call(linkFunc)
 	
@@ -111,7 +111,7 @@ d3.csv(url, function(error, data) {
 
 // add in the nodes
   var nodeRects = svg.append("g").selectAll(".node")
-      .data(graph.nodes, function(d) {return d.id})
+      .data(graph.nodes)
 
 	nodeRects.enter().append("rect").call(nodeRectFunc)
 
