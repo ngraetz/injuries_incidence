@@ -343,6 +343,19 @@ var drawAxisLabels = function() {
 
 drawAxisLabels()
 
+// Define functions
+var linkFunc = function(link) {
+      link.attr("class", "link")
+	  .attr("id", function(d,i){
+        d.id = i;
+        return "link-"+i;
+		})
+      .attr("d", path)
+      .style("stroke-width", function(d) { return Math.max(1, d.dy); })
+      .sort(function(a, b) { return b.dy - a.dy; });
+}
+
+
 // load the data (using the timelyportfolio csv method)
 draw = function(url) {
 d3.csv(url, function(error, data) {
@@ -384,6 +397,8 @@ d3.csv(url, function(error, data) {
   var link = svg.append("g").selectAll(".link")
       .data(graph.links)
 	  .enter().append("path")
+	  .call(linkFunc)
+	  /*
       .attr("class", "link")
 	  .attr("id", function(d,i){
         d.id = i;
@@ -392,7 +407,11 @@ d3.csv(url, function(error, data) {
       .attr("d", path)
       .style("stroke-width", function(d) { return Math.max(1, d.dy); })
       .sort(function(a, b) { return b.dy - a.dy; });
-
+		*/
+	link.exit().remove();
+		
+	linkG.selectAll(".link").transition().duration(500).call(linkFunc);  
+	  
 // add the link titles
   link.append("title")
         .text(function(d) {
