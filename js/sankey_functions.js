@@ -59,7 +59,7 @@
   }  
   */
   
-linkFunc = function(link) {
+var linkFunc = function(link) {
       link.attr("class", "link")
 	  .attr("id", function(d,i){
         d.id = i;
