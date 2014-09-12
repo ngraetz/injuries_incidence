@@ -59,7 +59,7 @@
   }  
   */
   
-var linkFunc = function(link) {
+linkFunc = function(link) {
       link.attr("class", "link")
 	  .attr("id", function(d,i){
         d.id = i;
@@ -71,8 +71,7 @@ var linkFunc = function(link) {
 }
 
 nodeRectFunc = function(node) {
-  node
-    .attr("class", "node")
+	node.attr("class", "node")
     .attr("transform", function(d) { 
 		  return "translate(" + d.x + "," + d.y + ")"; })
     .call(d3.behavior.drag()
@@ -88,6 +87,8 @@ nodeRectFunc = function(node) {
     .append("title")
     .text(function(d) { 
 		  return d.name + "\n" + format(d.value); })
+		  
 };
+
 // .on("drag", dragmove))
   // .on("click", highlight_node_links)

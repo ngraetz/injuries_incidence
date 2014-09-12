@@ -37,7 +37,25 @@ drawAxisLabels = function() {
 }
 
 drawAxisLabels()
-  
+
+ var linkFunc = function(link) {
+	link
+	  .attr("class", function(d) { return "link group"+d.color_class; })
+	  .attr("d", path)
+	  .attr("title", function(d) { return d.source.name + " ? " + d.target.name + "<br/>" + format(d.value) + "<br/>" + d.pkg_pct + "% of package<br/>" + d.c_pct + "% of cause"; })
+	  .style("stroke-width", function(d) { return Math.max(1, d.dy); })
+	  .sort(function(a, b) { return b.dy - a.dy; });
+}
+
+var nodeRectFunc = function(node) {
+	node
+	  .attr("height", function(d) { return d.dy; })
+	  .attr("width", sankey.nodeWidth())
+	  .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
+	  .attr("class", function(d) { return "node group"+d.color_class; })
+	  .attr("id", function(d) {return d.id})
+};
+ 
 // load the data (using the timelyportfolio csv method)
 draw = function(url) {
 d3.csv(url, function(error, data) {
