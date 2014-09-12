@@ -1,17 +1,5 @@
 // Define functions
 
-// Draw axis labels
-drawAxisLabels = function() {
-	// title
-	title = d3.select('svg').append('text').text('Injury Incidence').attr("x", (width+margin.left+margin.right)/2).attr("y", margin.top/2).attr("font-size", 75).attr("text-anchor", "middle")
-	
-	ecodetitle = d3.select('svg').append('text').text('E-Codes').attr("x", margin.left).attr("y", margin.top-40).attr("text-anchor", "start").attr("font-size", 40)
-	ecodetitle = d3.select('svg').append('text').text('(The "event" resulting in injury)').attr("x", margin.left).attr("y", margin.top-15).attr("text-anchor", "start").attr("font-size", 15)
-	
-	ncodetitle = d3.select('svg').append('text').text('N-Codes').attr("x", width + margin.left).attr("y", margin.top-40).attr("text-anchor", "end").attr("font-size", 40)
-	ncode_explanation = d3.select('svg').append('text').text('(The "nature" of the injury)').attr("x", width + margin.left).attr("y", margin.top-15).attr("text-anchor", "end").attr("font-size", 15)
-}
-
  // FUNCTION TO HIGHLIGHT ALL LINKS CONNECTED TO A NODE
  /*
    function highlight_link(id,opacity){
