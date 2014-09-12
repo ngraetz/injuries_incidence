@@ -355,6 +355,19 @@ var linkFunc = function(link) {
       .sort(function(a, b) { return b.dy - a.dy; });
 }
 
+var nodeRectFunc = function(node) {
+  node.append("rect")
+      .attr("height", function(d) { return d.dy; })
+      .attr("width", sankey.nodeWidth())
+      .style("fill", function(d) { 
+		  return d.color = color(d.name.replace(/ .*/, "")); })
+      .style("stroke", function(d) { 
+		  return d3.rgb(d.color).darker(2); })
+    .append("title")
+      .text(function(d) { 
+		  return d.name + "\n" + format(d.value); });
+}
+
 
 // load the data (using the timelyportfolio csv method)
 draw = function(url) {
@@ -419,7 +432,7 @@ d3.csv(url, function(error, data) {
                 d.target.name + "\n" + format(d.value); });
 
 // add in the nodes
-  var node = svg.append("g").selectAll(".node")
+  var nodeRects = nodeGRects.selectAll(".node")
       .data(graph.nodes)
 	  .enter().append("g")
       .attr("class", "node")
@@ -431,19 +444,25 @@ d3.csv(url, function(error, data) {
       .on("dragstart", function() { 
 		  this.parentNode.appendChild(this); })
       .on("drag", dragmove));
+		.call(nodeRectFunc)
 		
 // add the rectangles for the nodes
-  node.append("rect")
-      .attr("height", function(d) { return d.dy; })
-      .attr("width", sankey.nodeWidth())
-      .style("fill", function(d) { 
-		  return d.color = color(d.name.replace(/ .*/, "")); })
-      .style("stroke", function(d) { 
-		  return d3.rgb(d.color).darker(2); })
-    .append("title")
-      .text(function(d) { 
-		  return d.name + "\n" + format(d.value); });
 
+//  node.append("rect")
+//      .attr("height", function(d) { return d.dy; })
+//      .attr("width", sankey.nodeWidth())
+//      .style("fill", function(d) { 
+//		  return d.color = color(d.name.replace(/ .*/, "")); })
+ //     .style("stroke", function(d) { 
+//		  return d3.rgb(d.color).darker(2); })
+ //   .append("title")
+  //    .text(function(d) { 
+//		  return d.name + "\n" + format(d.value); });
+
+	nodeRects.exit().remove();
+		
+	nodeGRects.selectAll(".node").transition().duration(500).call(nodeRectFunc);	  
+		  
 // add in the title for the nodes
   node.append("text")
       .attr("x", -6)
