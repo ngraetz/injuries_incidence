@@ -114,12 +114,10 @@ var nodeRectFunc = function(node) {
     .attr("class", "node")
     .attr("transform", function(d) { 
 		  return "translate(" + d.x + "," + d.y + ")"; })
-	// .on("click", highlight_node_links)
     .call(d3.behavior.drag()
     .origin(function(d) { return d; })
     .on("dragstart", function() { 
 		  this.parentNode.appendChild(this); })
-    // .on("drag", dragmove))
     .attr("height", function(d) { return d.dy; })
     .attr("width", sankey.nodeWidth())
     .style("fill", function(d) { 
@@ -130,7 +128,9 @@ var nodeRectFunc = function(node) {
     .text(function(d) { 
 		  return d.name + "\n" + format(d.value); })
 };
-
+// .on("drag", dragmove))
+  // .on("click", highlight_node_links)
+  
   
 // load the data (using the timelyportfolio csv method)
 draw = function(url) {
