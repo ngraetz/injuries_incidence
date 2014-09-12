@@ -417,22 +417,13 @@ d3.csv(url, function(error, data) {
 
 // add in the links
   var link = svg.append("g").selectAll(".link")
-      .data(graph.links)
-	  .enter().append("path")
-	  .call(linkFunc)
-	  /*
-      .attr("class", "link")
-	  .attr("id", function(d,i){
-        d.id = i;
-        return "link-"+i;
-		})
-      .attr("d", path)
-      .style("stroke-width", function(d) { return Math.max(1, d.dy); })
-      .sort(function(a, b) { return b.dy - a.dy; });
-		*/
+      .data(graph.links, function(d) {return d.id})
+	  
+	link.enter().append("path").call(linkFunc)
+	
 	link.exit().remove();
 		
-	linkG.selectAll(".link").transition().duration(500).call(linkFunc);  
+	svg.append("g").selectAll(".link").transition().duration(500).call(linkFunc);  
 	  
 // add the link titles
   link.append("title")
@@ -441,27 +432,14 @@ d3.csv(url, function(error, data) {
                 d.target.name + "\n" + format(d.value); });
 
 // add in the nodes
-  var nodeRects = nodeGRects.selectAll(".node")
-      .data(graph.nodes)
+  var nodeRects = svg.append("g").selectAll(".node")
+      .data(graph.nodes, function(d) {return d.id})
 
-		nodeRects.enter().append("rect").call(nodeRectFunc)
-		
-// add the rectangles for the nodes
-
-//  node.append("rect")
-//      .attr("height", function(d) { return d.dy; })
-//      .attr("width", sankey.nodeWidth())
-//      .style("fill", function(d) { 
-//		  return d.color = color(d.name.replace(/ .*/, "")); })
- //     .style("stroke", function(d) { 
-//		  return d3.rgb(d.color).darker(2); })
- //   .append("title")
-  //    .text(function(d) { 
-//		  return d.name + "\n" + format(d.value); });
+	nodeRects.enter().append("rect").call(nodeRectFunc)		
 
 	nodeRects.exit().remove();
 		
-	nodeGRects.selectAll(".node").transition().duration(500).call(nodeRectFunc);	  
+	svg.append("g").selectAll(".node").transition().duration(500).call(nodeRectFunc);	  
 		  
 // add in the title for the nodes
   node.append("text")
