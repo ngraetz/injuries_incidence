@@ -415,23 +415,23 @@ var linkFunc = function(link) {
 
 var nodeRectFunc = function(node) {
   node
-        .attr("class", "node")
+    .attr("class", "node")
     .attr("transform", function(d) { 
 		  return "translate(" + d.x + "," + d.y + ")"; })
 	.on("click", highlight_node_links)
     .call(d3.behavior.drag()
-      .origin(function(d) { return d; })
-      .on("dragstart", function() { 
+    .origin(function(d) { return d; })
+    .on("dragstart", function() { 
 		  this.parentNode.appendChild(this); })
-      .on("drag", dragmove))
-      .attr("height", function(d) { return d.dy; })
-      .attr("width", sankey.nodeWidth())
-      .style("fill", function(d) { 
+    .on("drag", dragmove))
+    .attr("height", function(d) { return d.dy; })
+    .attr("width", sankey.nodeWidth())
+    .style("fill", function(d) { 
 		  return d.color = color(d.name.replace(/ .*/, "")); })
-      .style("stroke", function(d) { 
+    .style("stroke", function(d) { 
 		  return d3.rgb(d.color).darker(2); })
     .append("title")
-      .text(function(d) { 
+    .text(function(d) { 
 		  return d.name + "\n" + format(d.value); });
 }
 
@@ -439,6 +439,48 @@ var nodeRectFunc = function(node) {
 // load the data (using the timelyportfolio csv method)
 draw = function(url) {
 d3.csv(url, function(error, data) {
+  function highlight_node_links(node,i){
+
+    var remainingNodes=[],
+        nextNodes=[];
+
+    var stroke_opacity = 0.03;
+    if( d3.select(this).attr("data-clicked") == "1" ){
+      d3.select(this).attr("data-clicked","0");
+      stroke_opacity = 0.03;
+    }else{
+      d3.select(this).attr("data-clicked","1");
+      stroke_opacity = 0.5;
+    }
+	console.log("test", i, node)
+    var traverse = [{
+                      linkType : "sourceLinks",
+                      nodeType : "target"
+                    },{
+                      linkType : "targetLinks",
+                      nodeType : "source"
+                    }];
+
+    traverse.forEach(function(step){
+      node[step.linkType].forEach(function(link) {
+        remainingNodes.push(link[step.nodeType]);
+        highlight_link(link.id, stroke_opacity);
+      });
+
+      while (remainingNodes.length) {
+        nextNodes = [];
+        remainingNodes.forEach(function(node) {
+          node[step.linkType].forEach(function(link) {
+            nextNodes.push(link[step.nodeType]);
+            highlight_link(link.id, stroke_opacity);
+          });
+        });
+        remainingNodes = nextNodes;
+      }
+    });
+  }
+
+  
 
   //set up graph in same style as original example but empty
   graph = {"nodes" : [], "links" : []};
