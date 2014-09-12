@@ -120,7 +120,7 @@ d3.csv(url, function(error, data) {
 	svg.append("g").selectAll(".node").transition().duration(500).call(nodeRectFunc);	  
 		  
 // add in the title for the nodes
-  node.append("text")
+  nodeRects.append("text")
       .attr("x", -6)
       .attr("y", function(d) { return d.dy / 2; })
       .attr("dy", ".35em")
