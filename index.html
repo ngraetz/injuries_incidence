@@ -417,7 +417,7 @@ var nodeRectFunc = function(node) {
         .attr("class", "node")
     .attr("transform", function(d) { 
 		  return "translate(" + d.x + "," + d.y + ")"; })
-	.on("click",highlight_node_links)
+	.on("click", highlight_node_links)
     .call(d3.behavior.drag()
       .origin(function(d) { return d; })
       .on("dragstart", function() { 
