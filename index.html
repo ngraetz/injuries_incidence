@@ -411,7 +411,7 @@ var linkFunc = function(link) {
 		})
       .attr("d", path)
       .style("stroke-width", function(d) { return Math.max(1, d.dy); })
-      .sort(function(a, b) { return b.dy - a.dy; });
+      .sort(function(a, b) { return b.dy - a.dy; })
 }
 
 var nodeRectFunc = function(node) {
@@ -433,7 +433,7 @@ var nodeRectFunc = function(node) {
 		  return d3.rgb(d.color).darker(2); })
     .append("title")
     .text(function(d) { 
-		  return d.name + "\n" + format(d.value); });
+		  return d.name + "\n" + format(d.value); })
 }
 
   
