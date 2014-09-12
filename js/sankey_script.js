@@ -129,7 +129,7 @@ var nodeRectFunc = function(node) {
     .append("title")
     .text(function(d) { 
 		  return d.name + "\n" + format(d.value); })
-}
+};
 
   
 // load the data (using the timelyportfolio csv method)
@@ -208,4 +208,4 @@ d3.csv(url, function(error, data) {
       .attr("text-anchor", "start");
 	
 });
-}
+};
