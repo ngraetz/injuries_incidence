@@ -138,18 +138,7 @@ var nodeRectFunc = function(node) {
 		  return d3.rgb(d.color).darker(2); })
     .append("title")
     .text(function(d) { 
-		  return d.name + "\n" + format(d.value); })
-	// NEW	  
-	.append("text")
-      .attr("x", -6)
-      .attr("y", function(d) { return d.dy / 2; })
-      .attr("dy", ".35em")
-      .attr("text-anchor", "end")
-      .attr("transform", null)
-      .text(function(d) { return d.name; })
-    .filter(function(d) { return d.x > width / 2; })
-      .attr("x", 6 + sankey.nodeWidth())
-      .attr("text-anchor", "start")	  
+		  return d.name + "\n" + format(d.value); }) 
 		  
 };
 
@@ -224,7 +213,16 @@ d3.csv(url, function(error, data) {
   var nodeRects = svg.append("g").selectAll(".node")
       .data(graph.nodes)
 
-	nodeRects.enter().append("rect").call(nodeRectFunc)
+	nodeRects.enter().append("rect").call(nodeRectFunc).append("text")
+      .attr("x", -6)
+      .attr("y", function(d) { return d.dy / 2; })
+      .attr("dy", ".35em")
+      .attr("text-anchor", "end")
+      .attr("transform", null)
+      .text(function(d) { return d.name; })
+    .filter(function(d) { return d.x > width / 2; })
+      .attr("x", 6 + sankey.nodeWidth())
+      .attr("text-anchor", "start")	 
 
 	nodeRects.exit().remove();
 		
