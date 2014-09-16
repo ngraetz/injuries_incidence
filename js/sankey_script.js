@@ -56,10 +56,10 @@ var nodeRectFunc = function(node) {
 	  .attr("class", function(d) { return "node group"+d.color_class; })
 	  .attr("id", function(d) {return d.id})
 	 */
-	 	node.attr("class", "node")
+	node.attr("class", "node")
     .attr("transform", function(d) { 
 		  return "translate(" + d.x + "," + d.y + ")"; })
-    .call(d3.behavior.drag()
+    .call(d3.behavior.drag())
     .origin(function(d) { return d; })
     .on("dragstart", function() { 
 		  this.parentNode.appendChild(this); })
@@ -72,6 +72,7 @@ var nodeRectFunc = function(node) {
     .append("title")
     .text(function(d) { 
 		  return d.name + "\n" + format(d.value); })
+		  
 };
 
 
