@@ -100,6 +100,10 @@ drawAxisLabels()
  var linkFunc = function(link) {
 	link
 	  .attr("class", function(d) { return "link group"+d.color_class; })
+	  .attr("id", function(d,i){
+        d.id = i;
+        return "link-"+i;
+		})
 	  .attr("d", path)
 	  .attr("title", function(d) { return d.source.name + " ? " + d.target.name + "<br/>" + format(d.value) + "<br/>" + d.pkg_pct + "% of package<br/>" + d.c_pct + "% of cause"; })
 	  .style("stroke-width", function(d) { return Math.max(1, d.dy); })
