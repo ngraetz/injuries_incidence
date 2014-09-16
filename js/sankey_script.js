@@ -136,7 +136,18 @@ var nodeRectFunc = function(node) {
 		  
 };
 
-
+var nodeTextFunc = function(node) {
+	node
+	  .attr("x", function(d) { return d.x + -6; })
+	  .attr("y", function(d) { return d.y + (d.dy / 2); })
+	  .attr("dy", ".35em")
+	  .attr("text-anchor", "end")
+	  .attr("transform", null)
+	  .text(function(d) { return d.name; })
+	.filter(function(d) { return d.x > width / 2; })
+	  .attr("x", function(d) {return 6 + sankey.nodeWidth() + d.x})
+	  .attr("text-anchor", "start");
+};
 
 
 // load the data (using the timelyportfolio csv method)
@@ -201,7 +212,7 @@ d3.csv(url, function(error, data) {
 	nodeRects.exit().remove();
 		
 	svg.append("g").selectAll(".node").transition().duration(500).call(nodeRectFunc);	  
-		  
+/*		  
 // add in the title for the nodes
   nodeRects.append("text")
       .attr("x", -6)
@@ -213,6 +224,20 @@ d3.csv(url, function(error, data) {
     .filter(function(d) { return d.x > width / 2; })
       .attr("x", 6 + sankey.nodeWidth())
       .attr("text-anchor", "start");
+*/
+
+// Build node titles
+		var nodeTitle = svg.append("g").selectAll("text")
+		  .data(graph.nodes, function(d) {return d.id})
+		
+		nodeTitle.enter().append("text").call(nodeTextFunc);
+
+		nodeTitle.exit().remove();	
+		
+		svg.append("g").selectAll("text").transition().duration(500).call(nodeTextFunc);
+
+
+
 	
 });
 };
