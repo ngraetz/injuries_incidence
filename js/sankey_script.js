@@ -87,7 +87,7 @@ drawAxisLabels()
       }
     });
   }
-  
+  /*
   function dragmove(d) {
     d3.select(this).attr("transform", 
         "translate(" + d.x + "," + (
@@ -96,7 +96,7 @@ drawAxisLabels()
     sankey.relayout();
     link.attr("d", path);
   }
-  
+  */
  var linkFunc = function(link) {
 	link
 	  .attr("class", function(d) { return "link group"+d.color_class; })
@@ -122,11 +122,13 @@ var nodeRectFunc = function(node) {
 	node.attr("class", "node")
     .attr("transform", function(d) { 
 		  return "translate(" + d.x + "," + d.y + ")"; })
+		/*  
      .call(d3.behavior.drag()
 		.origin(function(d) { return d; })
 		.on("dragstart", function() { 
 		  this.parentNode.appendChild(this); })
 		.on("drag", dragmove))
+		*/
 	.on("click", highlight_node_links)	
     .attr("height", function(d) { return d.dy; })
     .attr("width", sankey.nodeWidth())
