@@ -139,6 +139,17 @@ var nodeRectFunc = function(node) {
     .append("title")
     .text(function(d) { 
 		  return d.name + "\n" + format(d.value); })
+	// NEW	  
+	.append("text")
+      .attr("x", -6)
+      .attr("y", function(d) { return d.dy / 2; })
+      .attr("dy", ".35em")
+      .attr("text-anchor", "end")
+      .attr("transform", null)
+      .text(function(d) { return d.name; })
+    .filter(function(d) { return d.x > width / 2; })
+      .attr("x", 6 + sankey.nodeWidth())
+      .attr("text-anchor", "start")	  
 		  
 };
 
