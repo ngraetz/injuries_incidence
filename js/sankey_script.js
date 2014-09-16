@@ -59,10 +59,11 @@ var nodeRectFunc = function(node) {
 	node.attr("class", "node")
     .attr("transform", function(d) { 
 		  return "translate(" + d.x + "," + d.y + ")"; })
-    .call(d3.behavior.drag())
-    .origin(function(d) { return d; })
-    .on("dragstart", function() { 
+     .call(d3.behavior.drag()
+		.origin(function(d) { return d; })
+		.on("dragstart", function() { 
 		  this.parentNode.appendChild(this); })
+		.on("drag", dragmove));
     .attr("height", function(d) { return d.dy; })
     .attr("width", sankey.nodeWidth())
     .style("fill", function(d) { 
