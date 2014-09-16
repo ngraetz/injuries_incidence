@@ -48,14 +48,35 @@ drawAxisLabels()
 }
 
 var nodeRectFunc = function(node) {
+	/*
 	node
 	  .attr("height", function(d) { return d.dy; })
 	  .attr("width", sankey.nodeWidth())
 	  .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
 	  .attr("class", function(d) { return "node group"+d.color_class; })
 	  .attr("id", function(d) {return d.id})
+	 */
+	 	node.attr("class", "node")
+    .attr("transform", function(d) { 
+		  return "translate(" + d.x + "," + d.y + ")"; })
+    .call(d3.behavior.drag()
+    .origin(function(d) { return d; })
+    .on("dragstart", function() { 
+		  this.parentNode.appendChild(this); })
+    .attr("height", function(d) { return d.dy; })
+    .attr("width", sankey.nodeWidth())
+    .style("fill", function(d) { 
+		  return d.color = color(d.name.replace(/ .*/, "")); })
+    .style("stroke", function(d) { 
+		  return d3.rgb(d.color).darker(2); })
+    .append("title")
+    .text(function(d) { 
+		  return d.name + "\n" + format(d.value); })
 };
- 
+
+
+
+
 // load the data (using the timelyportfolio csv method)
 draw = function(url) {
 d3.csv(url, function(error, data) {
