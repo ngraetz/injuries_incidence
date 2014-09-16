@@ -1,4 +1,4 @@
-var units = "Cases";
+var units = "YLDs";
 
 var margin = {top: 200, right: 350, bottom: 10, left: 350},
     width = 1500 - margin.left - margin.right,
@@ -27,7 +27,7 @@ var path = sankey.link();
 // Draw axis labels
 drawAxisLabels = function() {
 	// title
-	title = d3.select('svg').append('text').text('Injury Incidence').attr("x", (width+margin.left+margin.right)/2).attr("y", margin.top/2).attr("font-size", 75).attr("text-anchor", "middle")
+	title = d3.select('svg').append('text').text('Injury YLDs').attr("x", (width+margin.left+margin.right)/2).attr("y", margin.top/2).attr("font-size", 75).attr("text-anchor", "middle")
 	
 	ecodetitle = d3.select('svg').append('text').text('E-Codes').attr("x", margin.left).attr("y", margin.top-40).attr("text-anchor", "start").attr("font-size", 40)
 	ecodetitle = d3.select('svg').append('text').text('(The "event" resulting in injury)').attr("x", margin.left).attr("y", margin.top-15).attr("text-anchor", "start").attr("font-size", 15)
@@ -38,6 +38,56 @@ drawAxisLabels = function() {
 
 drawAxisLabels()
 
+// ***********************************************************************
+// DEFINE ALL FUNCTIONS BELOW
+// ***********************************************************************
+
+ // FUNCTION TO HIGHLIGHT ALL LINKS CONNECTED TO A NODE
+   function highlight_link(id,opacity){
+      d3.select("#link-"+id).style("stroke-opacity", opacity);
+  }
+  
+  function highlight_node_links(node,i){
+
+    var remainingNodes=[],
+        nextNodes=[];
+
+    var stroke_opacity = 0.03;
+    if( d3.select(this).attr("data-clicked") == "1" ){
+      d3.select(this).attr("data-clicked","0");
+      stroke_opacity = 0.03;
+    }else{
+      d3.select(this).attr("data-clicked","1");
+      stroke_opacity = 0.5;
+    }
+	console.log("test", i, node)
+    var traverse = [{
+                      linkType : "sourceLinks",
+                      nodeType : "target"
+                    },{
+                      linkType : "targetLinks",
+                      nodeType : "source"
+                    }];
+
+    traverse.forEach(function(step){
+      node[step.linkType].forEach(function(link) {
+        remainingNodes.push(link[step.nodeType]);
+        highlight_link(link.id, stroke_opacity);
+      });
+
+      while (remainingNodes.length) {
+        nextNodes = [];
+        remainingNodes.forEach(function(node) {
+          node[step.linkType].forEach(function(link) {
+            nextNodes.push(link[step.nodeType]);
+            highlight_link(link.id, stroke_opacity);
+          });
+        });
+        remainingNodes = nextNodes;
+      }
+    });
+  }
+  
   function dragmove(d) {
     d3.select(this).attr("transform", 
         "translate(" + d.x + "," + (
@@ -73,6 +123,7 @@ var nodeRectFunc = function(node) {
 		.on("dragstart", function() { 
 		  this.parentNode.appendChild(this); })
 		.on("drag", dragmove))
+	.on("click", highlight_node_links)	
     .attr("height", function(d) { return d.dy; })
     .attr("width", sankey.nodeWidth())
     .style("fill", function(d) { 
