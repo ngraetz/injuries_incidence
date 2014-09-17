@@ -129,6 +129,7 @@ var nodeRectFunc = function(node) {
 		  this.parentNode.appendChild(this); })
 		.on("drag", dragmove))
 		*/
+	.attr("id", function(d) {return d.id})	
 	.on("click", highlight_node_links)	
     .attr("height", function(d) { return d.dy; })
     .attr("width", sankey.nodeWidth())
@@ -213,16 +214,7 @@ d3.csv(url, function(error, data) {
   var nodeRects = svg.append("g").selectAll(".node")
       .data(graph.nodes)
 
-	nodeRects.enter().append("rect").call(nodeRectFunc).append("text")
-      .attr("x", -6)
-      .attr("y", function(d) { return d.dy / 2; })
-      .attr("dy", ".35em")
-      .attr("text-anchor", "end")
-      .attr("transform", null)
-      .text(function(d) { return d.name; })
-    .filter(function(d) { return d.x > width / 2; })
-      .attr("x", 6 + sankey.nodeWidth())
-      .attr("text-anchor", "start")	 
+	nodeRects.enter().append("rect").call(nodeRectFunc) 
 
 	nodeRects.exit().remove();
 		
