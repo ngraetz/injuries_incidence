@@ -197,9 +197,9 @@ d3.csv(url, function(error, data) {
   var link = svg.append("g").selectAll(".link")
       .data(graph.links)
 	  
+	link.exit().remove(); 
+	  
 	link.enter().append("path").call(linkFunc)
-	
-	link.exit().remove();
 		
 	svg.append("g").selectAll(".link").transition().duration(500).call(linkFunc);  
 	  
@@ -213,9 +213,9 @@ d3.csv(url, function(error, data) {
   var nodeRects = svg.append("g").selectAll(".node")
       .data(graph.nodes)
 
+	nodeRects.exit().remove();  
+	  
 	nodeRects.enter().append("rect").call(nodeRectFunc) 
-
-	nodeRects.exit().remove();
 		
 	svg.append("g").selectAll(".node").transition().duration(500).call(nodeRectFunc);	  
 		  
@@ -236,9 +236,9 @@ d3.csv(url, function(error, data) {
 		var nodeTitle = svg.append("g").selectAll("text")
 		  .data(graph.nodes, function(d) {return d.id})
 		
+		nodeTitle.exit().remove();			
+		
 		nodeTitle.enter().append("text").call(nodeTextFunc);
-
-		nodeTitle.exit().remove();	
 		
 		svg.append("g").selectAll("text").transition().duration(500).call(nodeTextFunc);
 
