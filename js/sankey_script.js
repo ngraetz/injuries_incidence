@@ -128,8 +128,7 @@ var nodeRectFunc = function(node) {
 		.on("dragstart", function() { 
 		  this.parentNode.appendChild(this); })
 		.on("drag", dragmove))
-		*/
-	.attr("id", function(d) {return d.id})	
+		*/	
 	.on("click", highlight_node_links)	
     .attr("height", function(d) { return d.dy; })
     .attr("width", sankey.nodeWidth())
@@ -219,7 +218,7 @@ d3.csv(url, function(error, data) {
 	nodeRects.exit().remove();
 		
 	svg.append("g").selectAll(".node").transition().duration(500).call(nodeRectFunc);	  
-/*		  
+		  
 // add in the title for the nodes
   nodeRects.append("text")
       .attr("x", -6)
@@ -231,7 +230,7 @@ d3.csv(url, function(error, data) {
     .filter(function(d) { return d.x > width / 2; })
       .attr("x", 6 + sankey.nodeWidth())
       .attr("text-anchor", "start");
-*/
+
 
 // Build node titles
 		var nodeTitle = svg.append("g").selectAll("text")

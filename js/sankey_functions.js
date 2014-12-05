@@ -1,7 +1,6 @@
 // Define functions
 
  // FUNCTION TO HIGHLIGHT ALL LINKS CONNECTED TO A NODE
- /*
    function highlight_link(id,opacity){
       d3.select("#link-"+id).style("stroke-opacity", opacity);
   }
@@ -57,7 +56,7 @@
     sankey.relayout();
     link.attr("d", path);
   }  
-  */
+ 
   
 linkFunc = function(link) {
       link.attr("class", "link")
